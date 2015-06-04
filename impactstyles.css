@@ -1,0 +1,130 @@
+<!-- === Impact Chapter CSS ===
+     ==========================
+Use # (which is for "id" html attribute) for addressing SINGLE elements.
+Use . (which is for "class" html attribute) for addressing GROUPS of elements.
+-->
+body {background-color:lightgrey;}
+
+a:link {
+	color:#000000;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:visited {
+	color:#000000;
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#ff0000;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+a:active {
+	color:#ff0000;
+	background-color: transparent;
+	text-decoration: underline;
+}
+
+<!--area is useful within 'map' tag-->
+area {}
+
+dl {}
+
+div {
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+
+img.logo {
+	float: left;
+	width: 42px;
+	height: 42px;
+	border: 1px solid black;
+}
+
+map {}
+
+ol {
+	list-style-type: 1; /*other options are 'A', 'a', 'I', 'i'.*/
+}
+
+p {
+	font-family:sans-serif;
+	font-size: 100%;
+	color:black;
+	border: 0px solid gray;
+	padding: 0px;
+	margin: 0px;
+}
+
+p.campus-description {
+	font-family:sans-serif;
+	font-size: 90%;
+	color:black;
+	border: 0px solid gray;
+	padding: 10px;
+	margin: 15px;
+}
+
+p#typed {
+	font-family:courier;
+	font-size: 90%;
+	color:black;
+	border: 1px solid black;
+	padding: 10px;
+	margin: 15px;
+}
+
+/*Reference: http://www.w3schools.com/html/html_tables.asp*/
+table {
+	border: 1px solid black;
+	border-collapse: collapse; /*default is 'double border'.*/
+	border-spacing: 2px; /*no effect on collapse border.*/
+	width: 100%
+}
+
+td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
+th {
+	border: 1px solid black;
+	padding: 5px;
+	font-family:sans-serif;
+	font-style: bold;
+	text-align: left; /*default is 'center'.*/
+}
+
+tr {
+	border: 1px solid black;
+}
+
+ul {
+	list-style-type: circle; /*default is 'bullets' (and there is 'square' and 'none').*/
+}
+
+ul#menu {
+	padding: 0;
+}
+
+ul#menu li {
+	display: inline; /*display horizontal list.*/
+}
+
+ul#menu li a {
+	background-color: black;
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+	border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover{
+	background-color: blue;
+}

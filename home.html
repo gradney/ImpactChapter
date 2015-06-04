@@ -3,25 +3,45 @@
 <head>
 	<meta charset="UTF-16">
 	<title>Impact Chapter - Howard University</title>
-	<!--relearning status: http://www.w3schools.com/html/html_paragraphs.asp-->
+	<!--relearning status: http://www.w3schools.com/html/html_blocks.asp-->
+	<!--[if IE 8]>
+	  ...some HTML here...
+	<![endif]-->
+	<link rel="stylesheet" type="text/css" href="impactstyles.css"/>
 </head>
 <body>
-	<img src="img/howard-university-bison.jpg" alt="http://www2.howard.edu/" width="140" height="100"></img>
+	<ul id="menu">
+		<li>About</li>
+		<li>Events</li>
+		<li><a href="pastors.html">Pastors</a></li>
+		<li><a href="campus-organizations.html">Partners</a></li>
+		<li>Connect</li>
+	</ul>
+	<a href="http://www2.howard.edu" target="_blank"><img src="img/howard-university-bison.jpg" alt="http://www2.howard.edu" width="140" height="100"></img></a>
+	<p>Menu</p>
+	<ul>
+		<li><a href="campus-organizations.html"  target="_blank"></a></li>
+		<li><a href="pastors.html" target="_blank"></a></li>
+	</ul>
 	<h1>Welcome</h1>
-	<p>Welcome to Howard University's Impact Chapter! We are an exciting and courageous bunch showing love our campus.</p>
+	<p id="typed">Welcome to Howard University's Impact Chapter! We are an exciting and courageous bunch showing love our campus.</p>
 	<h2>What kind of Love?</h2>
 	<p>Yes, there are various kinds of love. But there's only one love that conquers all - Jesus Love. <a href="https://www.biblegateway.com/passage/?search=1+John+4%3A7-12&version=NIV">1 John 4:7-12</a><!--a href="https://www.biblegateway.com/passage/?search=1+Peter+4%3A8&version=NIV">1 Peter 4:8</a--></p>
 	<br/>
+	<div>
+		<h2>This Week</h2>
+		<p style="color:white;">We're meeting in Cook Hall to have our last celebration @ 8:30pm. Come celebrate all the spiritual growth that happened this year and give God praise!</p>
+	</div>
 	<hr/>
 	<h1>Our Ministry Partners</h1>
 	<h2>DC Cru Community</h2>
 	<h3>Campuses</h3>
 	<p>DC Cru is hustling at currently two universities: American University, and Marymount University</p>
-	<h4>American University</h4>
-	<p>Lovely university on DC's NW side.</p>
-	<h4>Marymount University</h4>
-	<p>Lovely university on DC's South side.</p>
+	<h4><mark>American University</mark></h4>
+	<p class="campus-description">Lovely university on DC's NW side.</p>
+	<h4><mark>Marymount University</mark></h4>
+	<p class="campus-description">Lovely university on DC's South side.</p>
 	<h2>DC Campus Outreach</h2>
-	<p>Sponsored by one of the most legacy and well-respected churches in DC, Capitol Hill Baptist Church, this organizations is serious yet sincere about reaching the students on campus with the fundamentals of Christianity.</p>
+	<p>Sponsored by one of the most legacy and well-respected churches in DC, Capitol Hill Baptist Church, this organization is serious yet sincere about reaching the students on campus with the fundamentals of Christianity.</p>
 </body>
 </html>
