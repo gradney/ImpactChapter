@@ -1,10 +1,10 @@
-<!-- === Impact Chapter CSS ===
-     ==========================
+/** === Impact Chapter CSS ===
+    ==========================
 Use # (which is for "id" html attribute) for addressing SINGLE elements.
 Use . (which is for "class" html attribute) for addressing GROUPS of elements.
--->
+**/
 
-<!--code from w3schools site for layout-->
+/** code from w3schools site for layout **/
 #header {
     background-color:black;
     color:white;
@@ -31,7 +31,7 @@ Use . (which is for "class" html attribute) for addressing GROUPS of elements.
     text-align:center;
     padding:5px; 
 }
-<!--end code from w3schools site-->
+/** end code from w3schools site **/
 
 
 body {background-color:lightgrey;}
@@ -60,7 +60,7 @@ a:active {
 	text-decoration: underline;
 }
 
-<!--area is useful within 'map' tag-->
+/** area is useful within 'map' tag **/
 area {}
 
 dl {}
@@ -71,7 +71,7 @@ div {
 	padding: 20px;
 }
 
-<!-- example of an html class-->
+/** example of an html class **/
 div.ministry-partner {
 	background-color: white;
 	color: black;
@@ -181,7 +181,7 @@ span.verse_title {
 	margin: 0px;
 }
 
-/*Reference: http://www.w3schools.com/html/html_tables.asp*/
+/** Reference: http://www.w3schools.com/html/html_tables.asp **/
 table {
 	border: 1px solid black;
 	border-collapse: collapse; /*default is 'double border'.*/
