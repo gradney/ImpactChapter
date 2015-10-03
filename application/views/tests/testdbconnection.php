@@ -37,7 +37,7 @@
 	'dsn'	=> '',
 	'hostname' => 'localhost',
 	'username' => 'root',
-	'password' => 'NuPa$$word2015',
+	'password' => '',
 	'database' => '',
 	'dbdriver' => 'mysqli',	// database type
 	'dbprefix' => '',
@@ -63,6 +63,6 @@
 
 	/** Connect via Data Source Name. (works!) ********/
 	/** TODO: How do we query once connection via DSN successful? ****/
-	$dsn = 'mysqli://root:NuPa$$word2015@localhost/test';
+	$dsn = 'mysqli://root:password@localhost/test';
 	$this->load->database($dsn);	
 ?>

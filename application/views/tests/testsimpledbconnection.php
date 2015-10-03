@@ -9,7 +9,7 @@
 	// Set database properties.
 	$servername = 'localhost';
 	$username = 'root';
-	$password = 'NuPa$$word2015';
+	$password = '';
 	
 	// Create connection.
 	$conn = new mysqli($servername, $username, $password);
