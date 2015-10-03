@@ -66,21 +66,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 |
 | The $active_group variable lets you choose which connection group to
 | make active.  By default there is only one group (the 'default' group).
+| However, you can add a 'test', 'dev', and/or 'production'. These would
+| point to different databases based on configurations like 'default'. By
+| default, best practices would state having 'default' point to 'dev' 
+| database.
 |
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
+| IMPORTANT NOTE: Some CodeIgniter classes such as Sessions require Query
+| Builder to be enabled to access certain functionality.
 */
 $active_group = 'default';
 $query_builder = TRUE;
 
+// TODO: Add brief description for each *switch*.
+// http://www.codeigniter.com/user_guide/database/configuration.html
+// https://ellislab.com/codeigniter/user-guide/database/configuration.html
 $db['default'] = array(
 	'dsn'	=> '',
 	'hostname' => 'localhost',
-	'username' => '',
-	'password' => '',
+	'username' => 'root',
+	'password' => 'NuPa$$word2015',
 	'database' => '',
-	'dbdriver' => 'mysqli',
+	'dbdriver' => 'mysqli',	// database type
 	'dbprefix' => '',
+	'port' => '3306',		// default: 5432
+	'schema' => 'public',	// default: public
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
 	'cache_on' => FALSE,
@@ -89,8 +100,9 @@ $db['default'] = array(
 	'dbcollat' => 'utf8_general_ci',
 	'swap_pre' => '',
 	'encrypt' => FALSE,
-	'compress' => FALSE,
-	'stricton' => FALSE,
-	'failover' => array(),
-	'save_queries' => TRUE
+	'compress' => FALSE,	// Whether to use client compression (MySQL only).
+	'stricton' => FALSE,	// Whether to force "Strict Mode" connections, good
+							// for ensuring strict SQL while developing app.
+	'save_queries' => TRUE,
+	'failover' => array()
 );
