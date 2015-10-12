@@ -1,3 +1,18 @@
+<!-- 
+	Fall Retreat News:
+	I'm going to both Fall Retreats and would love for you to join me. 
+	Please let me know if you can make it. If you're worried about payments, 
+	then we can talk about sponsorship. If you need a reason why, 
+	I have plenty of reasons and would love to share. You probably know me by now 
+	and know there is some truth to it, hahaha. Love you, guys.
+
+	Cru Retreat (Oct 9-11th)
+	https://www.conferenceregistrationtool.com/conferenceInfo.seam?conferenceId=3123
+
+	Impact Retreat (Nov 6-8th)
+	http://www.cvent.com/events/impact-mid-atlantic-fall-retreat/event-summary-4b63c23a478442c985a16ddcb88c168e.aspx
+-->
+
 <?php
     echo "This is the News page!";
 	
