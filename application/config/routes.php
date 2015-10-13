@@ -51,6 +51,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 */
 $route['default_controller'] = 'page/view';
 // This will point any controller with its index or similar name in page/view.
-//$route['(:any)'] = 'page/view/$1';	
+$route['(:any)'] = 'page/view/$1';	
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;

@@ -6,7 +6,7 @@
 			$this->load->view('pages/home');
 		}
 		
-		/* View 'Home' page. */
+		/* View 'Home' page by default. */
 		public function view($page = 'home')
 		{
 			
@@ -25,11 +25,5 @@
 			$this->load->view('pages/'.$page, $data);
 			$this->load->view('templates/footer', $data);
 		}
-
-		// /* View 'News' page. */		
-		// public function view($page = 'news')
-		// {
-// 			
-		// }
     }
 ?>

@@ -3,6 +3,18 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 /*
 |--------------------------------------------------------------------------
+| Application Constants
+|--------------------------------------------------------------------------
+|
+| These variables are constants used throughout the application for 
+| easy configuration without having to search/replace throughout
+| entire application.
+|
+*/
+define('IMPACT_COMMUNITY_NAME', "IMPACT@HOWARD");
+
+/*
+|--------------------------------------------------------------------------
 | File and Directory Modes
 |--------------------------------------------------------------------------
 |
