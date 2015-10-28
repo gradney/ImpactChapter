@@ -1,7 +1,3 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>Impact Chapter - Howard University</head>
-<body>
 	<h1>Impact partners with the Chapel at Howard</h1>
 	<!-- TODO: We need to update the contact email 
 		from 'hu_impact@yahoo.com' 
@@ -14,11 +10,11 @@
 	-->
 	<ul>
 		<li><a href="http://chapel.howard.edu/ReligiousLife/Recognized">Religious Life recognized with Impact</a></li>
-
+	
 	</ul>
 	<h1>Our link on Howard's Collegiate Link site</h1>
 	<p></p>
-<!-- University's link to all active organizations @http://www.howard.edu/currentstudents/studentlifeactivities/organizations.htm -->
+	<!-- University's link to all active organizations @http://www.howard.edu/currentstudents/studentlifeactivities/organizations.htm -->
 	<h1>Brother & Sister Organizations</h1>
 	<ul>
 		<li><a href="https://howard.collegiatelink.net/organization/chapelassistants">Chapter Assistants</a></li>
@@ -42,5 +38,3 @@
 		<!-- HUCKI info email is howarducki@gmail.com, and supported by http://en.wikipedia.org/wiki/Kiwanis -->
 		<li><a href="https://howard.collegiatelink.net/organization/CHILL">College has its Life Lessons (C.H.I.L.L.)</a></li>
 	</ul>
-</body>
-</html>

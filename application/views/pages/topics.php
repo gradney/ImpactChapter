@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-16">
-	<title>Impact Chapter - Howard University</title>
-	<!--[if IE 8]>
-	  ...some HTML here...
-	<![endif]-->
-	<link rel="stylesheet" type="text/css" href="impactstyles.css"/>
-</head>
-<body>
 	<h1>Topics we cover and grow in together.</h1>
 	<table>
 		<tr>
@@ -42,5 +31,3 @@
 		<li>Evangelism - because this is the first order given by Jesus in his Great Commission and is the beginning of discipleship.</li>
 		<li>Discipleship - because we all must understand our faith, grow in it, and be able to teach others what has been taught to us by Jesus Christ through the Holy Spirit.</li>
 	</ol>
-</body>
-</html>

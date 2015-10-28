@@ -1,14 +1,3 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-16">
-	<title>Impact Chapter - Howard University</title>
-	<!--[if IE 8]>
-	  ...some HTML here...
-	<![endif]-->
-	<link rel="stylesheet" type="text/css" href="impactstyles.css"/>
-</head>
-<body>
 	<h1>So you want to get a Job, hunh?</h1>
 	<p>We all know that to make a living that we need to get a job. Well, unless we can create jobs. But even until we reach the position of creating jobs, we still need to have a job to pay our bills. Yet to have a job we need to get a job and that starts with your resume and your interviewing skills.</p>
 	<h2>Google's Top Qualifiers (by Laszlo Bock) </h2>
@@ -26,5 +15,3 @@
 	</dl>
 	<p>Note, Google did mention that your school doesn't matter as much as your grit and determination to succeed. Your GPA is a great prediction of how well you'll do within your first few years on the job, but not afterwards. This is where your character comes strongly into play. Read more @ <a href="http://money.cnn.com/2015/04/09/technology/google-people-laszlo-bock/index.html" target="_blank">http://money.cnn.com/2015/04/09/technology/google-people-laszlo-bock/index.html</a></p>
 	<p>You may have played around in school during your first year, but did you buckle down and hustle throughout the last years to lift up your career trajectory? That is what really matters! Focus on contributing to the well-being of the world and you'll do just fine. :)</p>
-</body>
-</html>

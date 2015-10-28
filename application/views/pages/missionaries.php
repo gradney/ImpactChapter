@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-16">
-	<title>Impact Chapter - Howard University</title>
-</head>
-<body>
 	<p>Pastors who support our Chapter!</p>
-	<div id="pastor" name="pastorMKelsey"><a href="">Mike Kelsey</a> of McLean Bible Church</p>
+	<div id="campus-missionary" name="eBurrell"><a href="">Rev. Eugene Burrell</a> of Navigators</p>
+	<div id="campus-missionary" name="lArchibald"><a href="">LaToya Archibald</a> of Every Nation Campus</p>
 	<!-- note:
 		spoke on Mark 12
 		- concepts of hypocracy -
@@ -20,11 +14,8 @@
 	-->
 	<p>Campus Missionaries</p>
 	<pre>
-		Jonathan Morgan
-
-		Mary
-
-		Dave Russell
+		Rev. Eugene Burrell
+		Rev. Brisbon
+		LaToya Archibald
+		<!--Jonathan Morgan-->
 	</pre>
-</body>
-</html>

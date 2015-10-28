@@ -1,10 +1,3 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-	<title>Impact Chapter - Howard University</title>
-	<link rel="stylesheet" type="text/css" href="impactstyles.css"/>
-</head>
-<body>
 	<h1>Our Brother & Sister Campus Ministries</h1>
 	<div class="ministry-partner">	
 		<h2>DC Cru Community</h2>
@@ -44,5 +37,3 @@
 		http://ccojubilee.org/about/what-we-believe/ (includes the "Chicago Agreement: Unity in Mission")
 		http://bcmlife.net/
 	-->
-</body>
-</html>

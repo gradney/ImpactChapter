@@ -21,9 +21,12 @@
 			$data['title'] = ucfirst($page); // Capitalize the first letter.
 			
 			# View Loader: Load views in order including the selected page.
-			$this->load->view('templates/header', $data);
+			$this->load->view('templates/head', $data);
+			$this->load->view('css/styles', $data);
 			$this->load->view('pages/'.$page, $data);
-			$this->load->view('templates/footer', $data);
+			$this->load->view('js/scripts', $data);
+			$this->load->view('templates/feet', $data);
+			$this->load->view('templates/end', $data);
 		}
     }
 ?>

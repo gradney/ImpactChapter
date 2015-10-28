@@ -1,16 +1,3 @@
-<!DOCTYPE html>
-<html lang="en-US">
-<head>
-	<meta charset="UTF-16">
-	<title>Impact Chapter - Howard University</title>
-	<!--relearning status: http://www.w3schools.com/html/html_blocks.asp-->
-	<!--[if IE 8]>
-	  ...some HTML here...
-	<![endif]-->
-	<link rel="stylesheet" type="text/css" href="impactstyles.css"/>
-</head>
-<body>
-
 	<h1>Community Service Opportunities</h1>
 	<ul>
 		<li><a href="http://www.upliftdc.org/">Uplift DC</a></li>
@@ -46,9 +33,3 @@ https://www.biblegateway.com/passage/?search=Luke+10
 		its history going back to its founding by the Romans, who named it Londinium.
 		</p>
 	</div>
-
-	<div id="footer">
-		Copyright © W3Schools.com
-	</div>
-</body>
-</html>
