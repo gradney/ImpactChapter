@@ -1,3 +1,161 @@
+<!-- 
+Bootstrap CSS Typography Reference
+http://www.w3schools.com/bootstrap/bootstrap_ref_css_text.asp
+Bootstrap Nav Bar Example
+https://getbootstrap.com/examples/navbar-static-top/
+-->
+<div class="page-header">
+	<h3>Page Header (need navigation bar here)</h3>
+</div>
+
+<!-- // ANNOUNCEMENTS // 
+	http://www.w3schools.com/bootstrap/bootstrap_ref_js_alert.asp
+	(Green) class="alert alert-success"
+	(Blue) class="alert alert-info"
+	(Yellow) class="alert alert-warning"
+	(Red) class="alert alert-danger"
+	(Fade-In Effect during closing) class="alert alert-warning fade in"
+-->
+<div class="alert alert-info">
+	<a href="#" class="close" data-dismiss="alert" aria-label="close">&times</a>
+	<strong>Breaking News!</strong> - Campus-Wide Fellowship, Saturday, Dec. 5th 6pm
+</div>
+<!-- BUTTONS
+STYLES
+<button type="button" class="btn btn-default">Default</button>
+<button type="button" class="btn btn-primary">Primary</button>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-link">Link</button>
+SIZE
+<button type="button" class="btn btn-primary btn-lg">Large</button>
+<button type="button" class="btn btn-primary btn-md">Medium</button>
+<button type="button" class="btn btn-primary btn-sm">Small</button>
+<button type="button" class="btn btn-primary btn-xs">XSmall</button>
+TYPES
+<a href="#" class="btn btn-info" role="button">Link Button</a>
+<button type="button" class="btn btn-info">Button</button>
+<input type="button" class="btn btn-info" value="Input Button">
+<input type="submit" class="btn btn-info" value="Submit Button">
+<SPAN PAGE>
+<button type="button" class="btn btn-primary btn-block">Entire Page Button 1</button>
+ACTIVE
+<button type="button" class="btn btn-primary active">Active Primary</button>
+-->
+
+
+	<div class="jumbotron">
+<div class="container">
+		<h1>My Tutorial</h1>
+		<p>Making this into a web-responsive interactive application.</p>
+</div>		
+	</div>
+	<p>some text for now...we can have the jumbotron be screen width (outside header container) or page width (inside header container).</p>
+
+<!--div class="container-fluid"-->
+<div class="container">
+	<h1>Welcome to the Impact Movement at Howard University</h1>
+	<p>
+		We warmly welcome you to our family! 
+		We, the Impact Movement branch of biblical activists at Howard University, exist to advance God's Kingdom forward.
+		In doing so, we honor our past, appreciate our present, and pray for our future.
+		<blockquote>
+			<p>"...we do not need to defend ourselves before you in this matter. If we are thrown into the blazing furnace,
+				the God we serve is able to deliver us from it, and he will deliver us from Your Majesty's hand. BUT even
+				if he does not, we want you to know, Your Majesty, that we will not serve your gods..."
+			</P>
+			<footer>
+				<a href="https://www.biblegateway.com/passage/?search=Daniel%203&version=NIV" target="_blank">Daniel 3:16-18</a>
+			</footer>
+		</blockquote>
+	</p>
+	
+	<h2>Honoring our Past
+		<small>
+			<br/>"Any words of wisdom...were spoken by those before us. We just need to listen." 
+			<br/>- Douglas Frederick
+		</small>
+	</h2>
+	<p>
+		A huge part of the reason why we have the opportunities that we have today is due to our past heroes. Many of them were
+		a part of powerful organizations on the front of fighting nonviolently the injustices, inequalities, and unbalanced liberties
+		of this great nation. These organizations include, but are not limited to, the 
+		<abbr title="Congress of Racial Equality">C.O.R.E.</abbr>, 
+		<abbr title="Student Non-Violent Coordinating Committee">S.N.C.C.</abbr>, 
+		and more.
+	</p>
+	<p>	
+		We, a branch of the national Impact Movement, feel fortunate to continue making contributions to the founding values 
+		of implementing reconciliation in our nation through biblical thought-inspiring speech and non-violent actions.
+	</p>
+
+	<h3>C.O.R.E.</h3>
+	<p>
+		<a href="http://www.history.com/topics/black-history/congress-of-racial-equality" target="_blank">
+			C.O.R.E. stands for the Congress of Racial Equality. 
+		</a>
+		We are thankful for C.O.R.E.
+	</p>
+
+	<h3>S.N.C.C.</h3>
+	<p>
+		<a href="http://www.history.com/topics/black-history/sncc" target="_blank">
+			S.N.C.C. stands for the Student Non-Violent Coordinating Committee. 
+		</a>
+		We are thankful for S.N.C.C.
+	</p>
+
+	<h2>Appreciating our Present</h2>
+	<p>
+		Today is a gift. One that we enjoy. One that we also take responsibility for.
+		<a href="https://www.biblegateway.com/passage/?search=Luke+12%3A48&version=NLT" target="_blank" class="verse">
+			Luke 12:4
+		</a> 
+		reminds us that "too whom much is given, much is required."
+	</p>
+	<p>
+		We understand our time to be one of the most precious gifts along with the current liberties handed to us all.
+		Gifts and liberties that we don't take for granted and consider as privileges provided by God. As such, 
+		we do our best to share these privileges along with the understanding and joy of such privileges with all our
+		brothers and sisters. 
+		<a href="https://www.biblegateway.com/passage/?search=1+Corinthians+12%3A26&version=NIV" target="_blank" class="verse">
+			1 Corinthians 12:26
+		</a>
+		explains the importance of sharing together the struggles and rewards equally.
+	</p>
+	
+	<h4>Time</h4>
+	Time can never be earned, repeated, created, or increased. It is only given and used.
+	
+	<h4>Gifts</h4>
+	Grateful for our gifts.	Love is the greatest gift. It is a gift that everyone can give and share. <mark>God is Love.</mark>
+	
+	<h4>Privileges</h4>
+	<p>
+		After the understanding of the Gospel, all things received are a privilege from the Father. With such a humble and grateful
+		heart, this world will see the Kingdom of God and worry no more about its rights to life.
+	</p>
+	
+	<h2>Believing our Future</h2>
+	<p>
+		We have hope. Hope that our future does not lie in the hands of men, but is in control by hands of God. We pray with
+		the Holy Spirit in seeing the beauty of our future revealed. Our faith anchors us to pray under any circumstances in seeing
+		God's plans unfold. Ultimately, all things will glorify God. Until then, we celebrate each victory approached in the 
+		name of Jesus Christ.
+	</p>
+</div>
+<div class="container">
+	<h2>Campus Ministers @ Howard University</h2>
+	<p>Much respect and lots of love to our current campus ministers.</p>
+	<dl>
+		<dt>Navigators</dt>
+			<dd>- Rev. Eugene Burrell (aka: the legend)</dd>
+		<dt>ENC</dt>
+			<dd>- Lady LaToya Archibald (aka: the veteran)</dd>
+	</dl>
+</div>
 <!-- // HTML5 stuff // 	
 	<header>
 		<h1>City Gallery</h1>
@@ -23,6 +181,7 @@
 -->
 
 <!-- HTML4 stuff -->
+<!--
 	<div name="banner" style="width:400x; height:1400x">
 		<a href="home.html" target="_blank">
 			<img id="impact_chapter_logo" class="logo" src="./images/impact_chapter_logo_white.jpg"/>
@@ -42,11 +201,11 @@
 	</div>
 	
 	<h1>
-		<!--span style="background-image: url('images/howard_university_seal.png')">Welcome to the Impact Chapter at Howard University!</span-->
+-->		<!--span style="background-image: url('images/howard_university_seal.png')">Welcome to the Impact Chapter at Howard University!</span-->
 		<?php
-		    echo "Welcome to the Impact Chapter at Howard University!";
+		    //echo "Welcome to the Impact Chapter at Howard University!";
 		?>
-	</h1>
+<!--	</h1>
 	<p id="frontpage">Of all loves, there's only one love that conquers all - Jesus Love. Come learn about this beautiful, unconditional love in our chapter.</p>
 	<p class="verse">
 		<span class="verse_title">God’s Love and Ours</span>
@@ -66,10 +225,8 @@
 		<br/>
 		<span class="verse_index"><a href="https://www.biblegateway.com/passage/?search=1+Peter+4%3A8-11&version=NIV">1 Peter 4:8-11</a></span>
 	</p>
-	<!-- 
-		// BUSINESS PLAN incl. VISION, MISSION, GOALS
-	-->
-	<p>
+-->	<!-- // BUSINESS PLAN incl. VISION, MISSION, GOALS -->
+<!--	<p>
 
 	</p>
 
@@ -80,5 +237,5 @@
 			<li>Grateful relationships with campus faculty and staff</li>
 		</ol>
 	</p>
-
+-->
 <!--end: </body> tag is in the footer.php-->
