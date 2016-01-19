@@ -1,0 +1,125 @@
+<html>
+  <head>
+    <title>Impact CSS</title>
+    <!-- CSS -->
+    <!--*if selectors in multiple style sheets, then value from the last read stylesheet will be used.-->
+    <!--*always include external stylesheet first, internal style sheet <style> next, inline style overrides all.-->
+    <link rel="stylesheet" type="text/css" href="air.css" />
+    <link rel="stylesheet" type="text/css" href="navigation.css" />
+    <link rel="stylesheet" type="text/css" href="form.css" />
+  </head>
+  <body>
+    <div class="navigation-bar">
+      <!--ul class="fixed" doesnt work on dropdown menus?-->
+      <ul>
+        <li class="float-left"><a class="active" href="main.html">Home</a></li>
+        <li class="float-left"><a href="#news">the-411</a></li>
+        <li class="float-left"><a href="#contact">Connect</a></li>
+        <li class="float-right"><a href="#login">Sign In</a></li>
+        <li class="float-right"><a href="#goals">Our Actions</a></li>
+        <li class="float-right"><a href="#purpose">Our Purpose</a></li>
+        <li class="float-right dropdown">
+          <a href="#about" class="dropdown-button">Our Identity</a>
+          <div class="dropdown-content">
+            <a href="#">Mission</a>
+            <a href="#">Vision</a>
+            <a href="#">Values</a>
+            <a href="leaders.html">Leaders</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="registration form">
+      <div class="form-header">
+        <div class="form-title">Join Us, Fam!</div>
+      </div>
+      <div class="form-body">
+        <label for="firstname">First Name</label>
+        <input type="text" id="firstname" name="name"></input> 
+        <label for="middlename">Middle Name</label>
+        <input type="text" id="middlename" name="name"></input> 
+        <label for="lastname">Last Name</label>
+        <input type="text" id="lastname" name="name"></input> 
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email"></input> 
+        <label for="password">Password</label>
+        <input type="text" id="password" name="password"></input>
+        <label for="address">Address</label>
+        <input type="text" id="address1" name="address"></input>
+        <input type="text" id="address2" name="address"></input>
+        <label for="city">City</label>
+        <input type="text" id="city" name="address"></input>
+        <label for="usastate">State</label>
+        <select id="usastate" name="address">
+          <option value="alabama">Alabama</option>
+          <option value="alaska">Alaska</option>
+          <option value="arizona">Arizona</option>
+          <option value="arkansas">Arkansas</option>
+          <option value="california">California</option>
+          <option value="colorado">Colorado</option>
+          <option value="connecticut">Connecticut</option>
+          <option value="delaware">Delaware</option>
+          <option value="delaware">District of Columbia</option>
+          <option value="florida">Florida</option>
+          <option value="georgia">Georgia</option>
+          <option value="hawaii">Hawaii</option>
+          <option value="idaho">Idaho</option>
+          <option value="illinois">Illinois</option>
+          <option value="indiana">Indiana</option>
+          <option value="iowa">Iowa</option>
+          <option value="kansas">Kansas</option>
+          <option value="kentucky">Kentucky</option>
+          <option value="louisiana">Louisiana</option>
+          <option value="maine">Maine</option>
+          <option value="maryland">Maryland</option>
+          <option value="massachusetts">Massachusetts</option>
+          <option value="michigan">Michigan</option>
+          <option value="minnesota">Minnesota</option>
+          <option value="mississippi">Mississippi</option>
+          <option value="missouri">Missouri</option>
+          <option value="montana">Montana</option>
+          <option value="nebraska">Nebraska</option>
+          <option value="nevada">Nevada</option>
+          <option value="new-hampshire">New Hampshire</option>
+          <option value="new-jersey">New Jersey</option>
+          <option value="new-mexico">New Mexico</option>
+          <option value="new-york">New York</option>
+          <option value="north-carolina">North Carolina</option>
+          <option value="north-dakota">North Dakota</option>
+          <option value="ohio">Ohio</option>
+          <option value="oklahoma">Oklahoma</option>
+          <option value="oregon">Oregon</option>
+          <option value="pennsylvania">Pennsylvania</option>
+          <option value="rhode-island">Rhode Island</option>
+          <option value="south-carolina">South Carolina</option>
+          <option value="south-dakota">South Dakota</option>
+          <option value="tennessee">Tennessee</option>
+          <option value="texas">Texas</option>
+          <option value="utah">Utah</option>
+          <option value="vermont">Vermont</option>
+          <option value="virginia">Virginia</option>
+          <option value="washington">Washington</option>
+          <option value="west-virginia">West Virginia</option>
+          <option value="wisconsin">Wisconsin</option>
+          <option value="wyoming">Wyoming</option>
+        </select>
+        <label for="postalcode">Zip</label>
+        <input type="text" id="postalcode" name="address"></input> 
+        <label for="country">Country</label>
+        <select id="country" name="address">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+      </div>
+      <div class="form-footer">
+        <p class="form-disclaimer">
+          By logging into and using this application, you are agreeing to give us full permission 
+          to use any data that you enter, use, or observe with this application and connected softwares.
+        </p>
+      </div>      
+    </div>
+    <!--div id="image">Image Sprite not working, see form.css<div-->
+  </body>
+</html>

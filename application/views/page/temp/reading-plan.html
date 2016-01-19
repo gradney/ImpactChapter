@@ -1,0 +1,101 @@
+<html>
+  <head>
+    <title>Impact CSS</title>
+    <!-- CSS -->
+    <!--*if selectors in multiple style sheets, then value from the last read stylesheet will be used.-->
+    <!--*always include external stylesheet first, internal style sheet <style> next, inline style overrides all.-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/air.css" />
+    <link rel="stylesheet" type="text/css" href="css/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="css/table.css" />
+    <link rel="stylesheet" type="text/css" href="css/colors.css" />
+  </head>
+  <body>
+
+    <div class="navigation-bar">
+      <!--ul class="fixed" doesnt work on dropdown menus?-->
+      <ul>
+        <li class="float-left"><a class="logo" href="main.html">
+          <img src="img/impact_logo_white.jpg" height="35" width="70"></img>
+        </a></li>
+        <li id="nav-latest-news" class="float-left"><a href="#news">411</a></li>
+        <li class="float-left"><a href="#contact">Connect</a></li>
+        <li class="float-right left-border"><a href="#login">Sign In</a></li>
+        <li class="float-right dropdown">
+          <a class="active" href="#goals" class="dropdown-button">Our Actions</a>
+          <div class="dropdown-content">
+            <a class="active" href="studies.html">Studies</a>
+            <a href="services.html">Services</a>
+          </div>
+        </li>
+        <li class="float-right dropdown">
+          <a href="#" class="dropdown-button">Our Team</a>
+          <div class="dropdown-content">
+            <a href="leaders.html">Leaders</a>
+            <a href="pastors.html">Churches</a>
+            <a href="investors.html">Investors</a>
+            <a href="partners.html">Partners</a>
+          </div>
+        </li>
+        <li class="float-right dropdown">
+          <a href="#about" class="dropdown-button">Our Identity</a>
+          <div class="dropdown-content">
+            <a href="about.html/#purpose">Purpose</a>
+            <a href="about.html/#mission">Mission</a>
+            <a href="about.html/#vision">Vision</a>
+            <a href="about.html/#values">Values</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="container" style="width:80%;margin:0 auto;">
+
+  <div class="jumbotron" style="background-color:white;">
+    <h1 class="midnight-blue" style="text-align:center;color:midnightblue;">Our Discipleship Studies</h1>
+    <img class="studies-poster" src="img/20151220_DeepStudy.jpg" height="500" width="900"></img>
+    <p>We dig deep into the Word of God - improving our inductive study approach with each passage 
+      within context while breaking down each verse to gain a greater understanding of His teachings.</p> 
+  </div>
+  <p>This is some text.</p> 
+  <p>This is another text.</p>
+
+      <p>
+        Discipleship is simply a development program. Technically speaking, it is an apprenticeship 
+        to master the disciplines under our Savior Jesus Christ.
+        When we enter into discipleship with an apostle, 
+        the goal is to be more like Jesus Christ, the ultimate teacher. Like any development program,
+        there must be structure. Here is our training schedule throughout the school year for new
+        Impact students. Notice that we start at the basics no matter what our spiritual maturity 
+        level is because of the need for clear understanding across ministries. These basics evolve
+        from our core <a href="#">values</a>. Because we apply each topic learned through our on-hands 
+        training, we call each lesson a "practice". And if you're not 
+        <span class="bold">practicing to win</span>, then you're
+        unconsciously preparing to lose.
+      </p>
+      <div class="table-scrollbar">
+        <table>
+          <tr><th class="center">Practice</th><th>Subject</th>
+            <th>Expectation</th>
+          </tr>
+          <tr><td class="center">#1</td><td>Strengthening our Faith</td>
+            <td>To practice praying that God will answer his/her prayer in God's timing. <br />
+              <span class="hint">Hint: The Doctor answers patients with patience.</span></td>
+          </tr>
+          <tr><td class="center">#2</td><td>Biblical Study Methods</td>
+            <td>To practice studying the Bible daily<sup>1</sup> on his/her own.</td>
+          </tr>
+        </table>
+        <div class="table-footer"><sup>1</sup> The aim is to actually study 
+          <span style="text-decoration:underline;">almost everyday</span> 
+          and to have our minds dwelling on the Word during our days where we are either resting from 
+          studying or have ran out of time in the day to study (considering many students of the Word are quite busy executing their calling from God).
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>

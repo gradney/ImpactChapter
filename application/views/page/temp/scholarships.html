@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <title>Impact CSS</title>
+    <!-- CSS -->
+    <!--*if selectors in multiple style sheets, then value from the last read stylesheet will be used.-->
+    <!--*always include external stylesheet first, internal style sheet <style> next, inline style overrides all.-->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/air.css" />
+    <link rel="stylesheet" type="text/css" href="css/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="css/table.css" />
+    <link rel="stylesheet" type="text/css" href="css/colors.css" />
+  </head>
+  <body>
+
+    <div class="navigation-bar">
+      <!--ul class="fixed" doesnt work on dropdown menus?-->
+      <ul>
+        <li class="float-left"><a class="logo" href="main.html">
+          <img src="img/impact_logo_white.jpg" height="35" width="70"></img>
+        </a></li>
+        <li id="nav-latest-news" class="float-left"><a href="#news">411</a></li>
+        <li class="float-left"><a href="#contact">Connect</a></li>
+        <li class="float-right left-border"><a href="#login">Sign In</a></li>
+        <li class="float-right dropdown">
+          <a class="active" href="#goals" class="dropdown-button">Our Actions</a>
+          <div class="dropdown-content">
+            <a class="active" href="studies.html">Studies</a>
+            <a href="services.html">Services</a>
+          </div>
+        </li>
+        <li class="float-right dropdown">
+          <a href="#" class="dropdown-button">Our Team</a>
+          <div class="dropdown-content">
+            <a href="leaders.html">Leaders</a>
+            <a href="pastors.html">Churches</a>
+            <a href="investors.html">Investors</a>
+            <a href="partners.html">Partners</a>
+          </div>
+        </li>
+        <li class="float-right dropdown">
+          <a href="#about" class="dropdown-button">Our Identity</a>
+          <div class="dropdown-content">
+            <a href="about.html/#purpose">Purpose</a>
+            <a href="about.html/#mission">Mission</a>
+            <a href="about.html/#vision">Vision</a>
+            <a href="about.html/#values">Values</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+
+    <div class="container" style="width:80%;margin:0 auto;">
+
+      <p>
+        The Impact Movement is currently NOT offering any scholarships. However, we look forward to 
+        providing scholarships in the future.
+      </p>
+      <p>Here is a list of scholarships that may interest you:
+        <ol>
+          <li>https://modifiedasphalt.org/2016-dave-jones-scholarship/</li>
+        </ol>
+      </p>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </body>
+</html>

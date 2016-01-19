@@ -1,0 +1,63 @@
+<html>
+  <head>
+    <title>Impact CSS</title>
+    <!-- CSS -->
+    <!--*if selectors in multiple style sheets, then value from the last read stylesheet will be used.-->
+    <!--*always include external stylesheet first, internal style sheet <style> next, inline style overrides all.-->
+    <link rel="stylesheet" type="text/css" href="air.css" />
+    <link rel="stylesheet" type="text/css" href="navigation.css" />
+    <link rel="stylesheet" type="text/css" href="gallery.css" />
+  </head>
+  <body>
+    <div class="navigation-bar">
+      <!--ul class="fixed" doesnt work on dropdown menus?-->
+      <ul>
+        <li class="float-left"><a href="main.html">Home</a></li>
+        <li class="float-left"><a href="#news">the-411</a></li>
+        <li class="float-left"><a href="#contact">Connect</a></li>
+        <li class="float-right"><a href="#login">Sign In</a></li>
+        <li class="float-right"><a href="#goals">Our Actions</a></li>
+        <li class="float-right"><a href="#purpose">Our Purpose</a></li>
+        <li class="float-right dropdown">
+          <a href="#about" class="active dropdown-button">Our Identity</a>
+          <div class="dropdown-content">
+            <a href="#">Mission</a>
+            <a href="#">Vision</a>
+            <a href="#">Values</a>
+            <a class="active" href="leaders.html">Leaders</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <h1 class="">~ Our Leaders ~</h1>
+
+    <div class="img">
+      <a target="_blank" href="img/koala.jpg">
+        <img src="img/koala.jpg" alt="Koala" width="300" height="200">
+      </a>
+      <div class="desc">Krista - the Kandidate</div>
+    </div>
+
+    <div class="img">
+      <a target="_blank" href="img/GitHubCat.png">
+        <img src="img/GitHubCat.png" alt="Cat" width="300" height="200">
+      </a>
+      <div class="desc">Mr. Git Hub - the Developer</div>
+    </div>
+
+    <div class="img">
+      <a target="_blank" href="img/Caricature.jpg">
+        <img src="img/Caricature.jpg" alt="Caricature" width="300" height="200">
+      </a>
+      <div class="desc">Tommy Robinson - the Geek</div>
+    </div>
+
+    <div class="img">
+      <a target="_blank" href="img/Scorpion.png">
+        <img src="img/Scorpion.png" alt="Scorpion" width="300" height="200">
+      </a>
+      <div class="desc">Scorpio - the Surgeon</div>
+    </div>
+
+  </body>
+</html>
