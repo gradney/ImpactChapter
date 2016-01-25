@@ -30,6 +30,11 @@
             </a>
           </li>
           <li>
+            <a href="https://www.youtube.com/impactbison" target="_blank" class="social-media-icons">
+              <i id="youtube-icon" class="fa fa-youtube-square"></i>
+            </a>
+          </li>
+          <li>
             <a href="mailto:impactbison@gmail.com?Subject=Interested%20in%20Impact" target="_blank" class="social-media-icons">
               <i id="email-icon" class="fa fa-envelope-square"></i>
             </a>

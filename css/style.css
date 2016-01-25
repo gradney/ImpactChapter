@@ -26,7 +26,8 @@ div.alma-mater a:visited { color: navy; }
 div.alma-mater a:hover { color: #b22222;/*firebrick*/text-decoration: underline; }
 div.alma-mater a:active { color: navy; }
 
-i.fa.fa-facebook-square, i.fa.fa-twitter-square, i.fa.fa-envelope-square, i.fa.fa-trophy
+i.fa.fa-facebook-square, i.fa.fa-twitter-square, i.fa.fa-youtube-square, i.fa.fa-envelope-square, 
+i.fa.fa-trophy
 {
     font-size: 18px;
 }
