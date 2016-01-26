@@ -1,6 +1,7 @@
 /*****************************************************************************
  * Main javascript for Impact Chapter
  * - using object literal pattern
+ * note: objects extend off classes, modules group functions
  *****************************************************************************/
 
  var Student = {
