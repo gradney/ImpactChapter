@@ -16,11 +16,11 @@
     <div class="well">
       <h2>What makes us different from other campus ministries?</h2>
       <h4 id="purpose-description">We focus on becoming a full expression of Jesus Christ through the unique purpose he’s given to each of us including our identity, culture, history, and direction.</h4>
+      <h4><span class="bold">Gospel</span> - one's showing (practice) of living with Jesus Christ.</h4>
       <h4><span class="bold">Identity</span> - one's uniqueness.</h4>
+      <h4><span class="bold">Direction</span> - one's path into the future and effect on the future of others.</h4>
       <h4><span class="bold">Culture</span> - one's way of life with community.</h4>
       <h4><span class="bold">History</span> - one's understanding of his/her past and how it contributes to his/her present moment and future impact.</h4>
-      <h4><span class="bold">Direction</span> - one's path into the future and effect on the future of others.</h4>
-      <h4><span class="bold">Gospel</span> - one's showing (practice) of living with Jesus Christ.</h4>
 	</div>
   </div>
 
