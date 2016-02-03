@@ -45,10 +45,10 @@
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-barcode"></span> Identify</a>
             <ul class="dropdown-menu">
-              <li><a href="about">Our Purpose</a></li>
-              <li><a href="about">Our Mission</a></li>
-              <li><a href="about">Our Vision</a></li>
-              <li><a href="about">Our Values</a></li> 
+              <li><a href="#">Our Purpose</a></li>
+              <li><a href="#">Our Mission</a></li>
+              <li><a href="#">Our Vision</a></li>
+              <li><a href="#">Our Values</a></li> 
             </ul>
           </li>
           <li>

@@ -39,7 +39,7 @@ thead {
     background-color: #fff;
     color: #000;
     text-align: left;
-    padding: 0px 0px 8px 0px;
+    padding: 0px;
     margin: 0px;
 }
 .alma-mater-stanza {
@@ -69,6 +69,7 @@ thead {
     /*padding-bottom: 10px;*/
     border-bottom: 5px solid #B22222;/*firebrick*/
 }
+.panel { border: 0px solid #f5f5f5 !important; }
 .panel-heading { background-color: #fff !important; }
 .panel-body { background-color: #f5f5f5 !important; text-align: justify !important; }
 .panel-body a:link { color: navy; }

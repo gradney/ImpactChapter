@@ -1,9 +1,15 @@
-<!--Excellent Website Example: http://www.desitin.com/-->
 
   <!--/*Page Header*/-->
   <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-12">
+      <div class="col-md-12">
+        <div id="caption-for-slides" style="margin: 0 auto;">
+          <h1 class="text-center">This is where the carousel image captions will display.</h1>
+        </div><!-- /#right -->
+      </div><!--col-->
+    </div><!--row-->
+    <div class="row">
+      <div class="col-md-12">
           <!-- Carousel -->
           <div id="im-carousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -11,26 +17,33 @@
               <li data-target="#im-carousel" data-slide-to="0" class="active"></li>
               <li data-target="#im-carousel" data-slide-to="1"></li>
               <li data-target="#im-carousel" data-slide-to="2"></li>
+              <li data-target="#im-carousel" data-slide-to="3"></li>
             </ol>
             <!-- Slides -->
             <div class="carousel-inner" role="listbox">
               <div class="item active">
-                <img src="<?php echo base_url().'img/pic/20150221_GilmerCelebrationDC.jpg';?>" alt="National-Leaders"></img>
+                <img src="<?php echo base_url().'img/pic/20150221_GilmerCelebrationDC.jpg';?>" alt="Worldwide Leaders"></img>
                 <div class="carousel-caption">
-                  <h3>Ready to Lead?</h3>
+                  <h1 class="text-center">Ready to Lead?</h1>
                 </div>
               </div>
               <div class="item">
                 <div class="carousel-caption" style="top:0;bottom: auto;">
-                  <h3 style="color:navy">Join Us @ <a href="http://reset2016.com/" target="_blank">RESET!</a></h3>
+                  <h1  class="text-center" style="color:navy">Join Us @ <a href="http://reset2016.com/" target="_blank">RESET!</a></h1>
                 </div>
-                <img src="<?php echo base_url().'img/pic/20150611_ResetLeadership2.jpg';?>" alt="Reset"></img>
+                <img src="<?php echo base_url().'img/pic/20150611_ResetLeadership.jpg';?>" alt="Reset Prayer"></img>
               </div>
               <div class="item">
                 <div class="carousel-caption" style="top:0;bottom: auto;">
-                  <h3>Do You Retreat, Reflect, Recharge?</h3>
+                  <h1 class="text-center">Do You Retreat, Reflect, Recharge?</h1>
                 </div>
-                <img src="<?php echo base_url().'img/pic/20151107_RetreatTogether.jpg';?>" alt="Retreat"></img>
+                <img src="<?php echo base_url().'img/pic/20151107_RetreatTogether.jpg';?>" alt="Retreat to Recharge"></img>
+              </div>
+              <div class="item">
+                <div class="carousel-caption" style="top:0;bottom: auto;">
+                  <h1 class="text-center">Got Fam?</h1>
+                </div>
+                <img src="<?php echo base_url().'img/pic/20150810_AlumFun.jpg';?>" alt="Alumni Family"></img>
               </div>
             </div>
             <!-- Controls -->
@@ -50,7 +63,7 @@
   <!--/*Page Content*/-->
   <div class="container" align="center">
     <div class="row top-buffer-20">
-      <div class="col-xs-4">
+      <div class="col-md-4">
         <div class="panel panel-default">
           <div class="panel-heading">
             <img src="<?php echo base_url().'img/cross_navy_blue.png';?>" height="120" width="100"></img>
@@ -76,7 +89,7 @@
           </div>
         </div>
       </div>
-      <div class="col-xs-4">
+      <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
               <img src="<?php echo base_url().'img/howard_university_logo.jpg';?>" height="120" width="115"></img>
@@ -96,14 +109,16 @@
                     Sending forth her rays of light,<br/>
                     Clad in robes of majesty;<br/>
                     O Howard, we sing of thee
-                    <a href="https://www2.howard.edu/about/alma-mater" target="_blank">&hellip;</a>
+                    <a href="https://www2.howard.edu/about/alma-mater" target="_blank">
+                      <button type="button" class="btn btn-muted">&hellip;</button>
+                    </a>
                   </div>
                 </div>
               </h4>
             </div>
           </div>
       </div>
-      <div class="col-xs-4">
+      <div class="col-md-4">
           <div class="panel panel-default">
             <div class="panel-heading">
               <img src="<?php echo base_url().'img/gardening-tool-hoe-with-fork.png';?>" height="120" width="100"></img>
