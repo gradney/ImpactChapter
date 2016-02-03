@@ -18,7 +18,7 @@
         <ul class="nav navbar-nav">
           <!--li><a href="#"><i class="fa fa-home"></i></a></li-->
           <li><a href="#"><span class="glyphicon glyphicon-exclamation-sign"></span> 411</a></li>
-          <li><a href="#"><span class="glyphicon glyphicon-signal"></span> Connect</a></li>
+          <li><a href="#"><span class="fa fa-user"></span> Connect</a></li>
           <li>
             <a href="https://www.facebook.com/impactbison" target="_blank" class="social-media-icons">
               <i id="facebook-icon" class="fa fa-facebook-square"></i>
