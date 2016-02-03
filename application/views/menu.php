@@ -17,7 +17,9 @@
         <!--/*Navigation Menu : Left*/-->
         <ul class="nav navbar-nav">
           <!--li><a href="#"><i class="fa fa-home"></i></a></li-->
-          <li><a href="#"><span class="glyphicon glyphicon-exclamation-sign"></span> 411</a></li>
+          <li class="menu-411">
+            <a href="#" data-toggle="modal" data-target="#modal-411"><span class="glyphicon glyphicon-exclamation-sign"></span> 411</a>
+          </li>
           <li><a href="#"><span class="fa fa-user"></span> Connect</a></li>
           <li>
             <a href="https://www.facebook.com/impactbison" target="_blank" class="social-media-icons">
@@ -72,3 +74,24 @@
       </div>
     </div>
   </nav>
+
+  <!-- Modal -->
+  <div class="modal fade" id="modal-411" tabindex="-1" role="dialog" aria-labelledby="modal-411-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h1 class="modal-title">The 411 with Impact @ Howard!</h1>
+        </div>
+        <div class="modal-body">
+          <h3>This week, we will be studying together at 7pm in Douglass Hall rm. 238 on the topic of LOVE&hellip;</h3>
+          <h3>Come get some "food" and hugs, fam!</h3>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          <!--a href="studies" target="_parent"><button type="button" class="btn btn-default" data-dismiss="modal">Open 'Studies' Page</button></a-->
+          <!--button type="button" class="btn btn-primary">Save changes</button-->
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
