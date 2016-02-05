@@ -11,6 +11,14 @@ html, body {
     height: 100%;
     font-family: 'Lora', serif;
 }
+/*Leave all element selector and html,body above here.*/
+
+div.well {
+    background-color: #fff !important;
+    border: 1px solid gray !important;
+    border-radius: 4%;
+    box-shadow: 5px 5px gray;
+}
 
 i.fa.fa-facebook-square, i.fa.fa-twitter-square, i.fa.fa-youtube-square, i.fa.fa-envelope-square, 
 i.fa.fa-trophy {
@@ -21,6 +29,8 @@ img.left-thumbnail {
     float: left;
     margin: 0px 10px 10px 0px;
 }
+
+li a.nounderline { text-decoration: none; }
 
 li a.social-media-icons {
     padding-left: 2px;
@@ -62,6 +72,10 @@ thead {
 .church-area-info { margin-top: 20px; }
 .church-intro { font-family: 'Lora', serif; }
 .church-list { margin-top: 20px; }
+.embed-responsive-item {
+    border: 2px solid black;
+    border-radius: 4%;
+}
 .italic { font-style: italic; }
 .navbar-brand { margin-bottom: 10px;}
 .navbar {
@@ -82,19 +96,38 @@ thead {
     text-align: center;
     color: navy;
 }
+
+.text-size-10 { font-size: 10px; }
+.text-size-20 { font-size: 20px; }
+.text-size-30 { font-size: 30px; }
+.text-size-40 { font-size: 40px; }
+.text-size-50 { font-size: 50px; }
+
 .top-buffer-20 {
     padding-top: 20px;
 }
 .underline { text-decoration: underline; }
-
+.video-gallery-heading {
+    margin: 0 auto;
+    padding: 30px 40px;
+    text-align: center;
+    font-style: italic;
+}
 /*******************************************************************/
 /** CLASSES | COLORS ***********************************************/
 /*******************************************************************/
+.darkslategray {
+    color: #2f4f4f;
+}
+
 .firebrick {
     color: #b22222;
 }
 .navy {
     color: navy;
+}
+.superdarkgray {
+    color: #484848;
 }
 /************************
 
@@ -164,6 +197,10 @@ thead {
     padding: 15px;
     max-width: 650px;/*maxwidth-per-image-width-plus-twenty-five*/
     color: #191970;/*midnightblue*/
+}
+
+#video-categories li.active {
+    border-bottom: 2px solid #191970;/*midnightblue*/
 }
 
 #wrapper {
