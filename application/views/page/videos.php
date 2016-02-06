@@ -25,17 +25,17 @@
         </li>
         <li class="col-md-3">
           <div class="text-size-40 text-nowrap">
-            <a class="nounderline" data-toggle="tab" href="#video-panel-gospel"><i class="fa fa-book"></i>&nbsp;Good News</a>
+            <a class="nounderline" data-toggle="tab" href="#video-panel-gospel"><i class="fa fa-book"></i>&nbsp;Good Word!</a>
           </div>
         </li>
         <li class="col-md-3">
           <div class="text-size-40 text-nowrap">
-            <a class="nounderline" data-toggle="tab" href="#video-panel-grow"><i class="fa fa-video-camera"></i>&nbsp;Let's Grow</a>
+            <a class="nounderline" data-toggle="tab" href="#video-panel-grow"><i class="fa fa-leaf"></i>&nbsp;Let's Grow</a>
           </div>
         </li>
         <li class="col-md-3">
           <div class="text-size-40 text-nowrap">
-            <a class="nounderline" data-toggle="tab" href="#video-panel-motive"><i class="fa fa-video-camera"></i>&nbsp;Encouragement</a>
+            <a class="nounderline" data-toggle="tab" href="#video-panel-motive"><i class="fa fa-compass"></i>&nbsp;Encouragement</a>
           </div>
         </li>
       </ul>
@@ -181,7 +181,41 @@
         <div id="video-panel-gospel" class="tab-pane fade">
           <h3>Word!</h3>
           <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-        </div>
+
+            <div class="row">
+              <div class="col-md-4">
+                <div id="impactconference13" class="well">
+                  <!-- 4:3 aspect ratio -->
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://player.vimeo.com/video/3008244" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>Your browser does not support the iframe tag. Please upgrade your browser.</iframe>
+                  </div>
+                  <h3 class="text-center"><a href="https://vimeo.com/3008244">Impact Movement Conference Intro</a></h3>
+                  <h3 class="text-center"><span class="label label-primary">You can do the Impossible</span></h3>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div id="impactconference12" class="well">
+                  <!-- 4:3 aspect ratio -->
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lJOSHojiv3k" allowfullscreen>Your browser does not support the iframe tag. Please upgrade your browser.</iframe>
+                  </div>
+                  <h3 class="text-center">Impact '12 "M.I.A."</h3>
+                  <h3 class="text-center"><span class="label label-primary">National Conference</span></h3>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div id="impactconference11" class="well">
+                  <!-- 4:3 aspect ratio -->
+                  <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oMai1dUbUcM" allowfullscreen>Your browser does not support the iframe tag. Please upgrade your browser.</iframe>
+                  </div>
+                  <h3 class="text-center">Impact '11 "The Remedy"</h3>
+                  <h3 class="text-center"><span class="label label-primary">National Conference</span></h3>
+                </div>
+              </div>
+            </div><?php /*<!--end:row-->*/ ?>
+
+        </div><!--end:video-panel-gospel-->
         <div id="video-panel-grow" class="tab-pane fade">
           <h3>Getting Greener</h3>
           <small>We can do this and so can you, homie!</small>

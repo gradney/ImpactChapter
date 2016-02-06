@@ -18,7 +18,7 @@
         <ul class="nav navbar-nav">
           <!--li><a href="#"><i class="fa fa-home"></i></a></li-->
           <li class="menu-411">
-            <a href="#" data-toggle="modal" data-target="#modal-411"><i class="glyphicon glyphicon-exclamation-sign"></i> 411</a>
+            <a href="#" data-toggle="modal" data-target="#modal-411"><i class="fa fa-exclamation-circle"></i> 411</a>
           </li>
           <li><a href="#"><i class="fa fa-user"></i> Connect</a></li>
           <li>
