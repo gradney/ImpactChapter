@@ -18,9 +18,9 @@
         <ul class="nav navbar-nav">
           <!--li><a href="#"><i class="fa fa-home"></i></a></li-->
           <li class="menu-411">
-            <a href="#" data-toggle="modal" data-target="#modal-411"><span class="glyphicon glyphicon-exclamation-sign"></span> 411</a>
+            <a href="#" data-toggle="modal" data-target="#modal-411"><i class="glyphicon glyphicon-exclamation-sign"></i> 411</a>
           </li>
-          <li><a href="#"><span class="fa fa-user"></span> Connect</a></li>
+          <li><a href="#"><i class="fa fa-user"></i> Connect</a></li>
           <li>
             <a href="https://www.facebook.com/impactbison" target="_blank" class="social-media-icons">
               <i id="facebook-icon" class="fa fa-facebook-square"></i>
