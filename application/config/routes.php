@@ -52,15 +52,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 # Default route.
 $route['default_controller'] = 'page/view';
 
+# Specific routes.
+$route['form'] = 'form';
+$route['form/(:any)'] = 'form/process/$1';
+$route['news'] = 'news';	// index.php/news
+$route['news/(:any)'] = 'news/view/$1';
+$route['news/create'] = 'news/create';
+
 # This will point any controller with its index or similar name in page/view.
 # Without the .htaccess redirect, this will 
 # actually point to site.com/index.html/page/view/$1
 $route['(:any)'] = 'page/view/$1';
-
-# Specific routes.
-$route['news'] = 'news';	// index.php/news
-$route['news/(:any)'] = 'news/view/$1';
-$route['news/create'] = 'news/create';
 
 # Other standard routes.
 $route['404_override'] = '';

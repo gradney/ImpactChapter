@@ -185,9 +185,10 @@
  		'Minor: '+this.minor+', '+
  		'2nd Language: '+this.secondlanguage+', '+
  		'5-year program: '+this.fiveyearprogram
- 		);},
+ 		);
+ 	},
  	displayRole: function() { alert(this.impactrole); }
- }
+ };
 
 /*****************************************************************************
  * TEST BLOCK ****************************************************************
