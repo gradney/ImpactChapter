@@ -3,7 +3,7 @@
     <head>
       <meta charset="utf-16">
       <meta name="viewport" content="width=device-width, initial-scale=1"/>
-      <title><?php echo "Impact | ".$title; ?></title>
+      <title><?php if(isset($title)) echo "Impact | ".$title; else echo "Impact | Welcome"; ?></title>
       <link rel="icon" type="image/ico" href="<?php echo base_url('img/favicon.ico');?>"/>
       <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
       <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css"/>

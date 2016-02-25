@@ -20,7 +20,12 @@
           <li class="menu-411">
             <a href="#" data-toggle="modal" data-target="#modal-411"><i class="fa fa-exclamation-circle"></i> 411</a>
           </li>
-          <li><a href="#"><i class="fa fa-user"></i> Connect</a></li>
+          <!--li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-barcode"></span> Identify</a>
+          </li-->
+        </ul>
+        <!--/*Navigation Menu : Right*/-->
+        <ul class="nav navbar-nav navbar-right">
           <li>
             <a href="https://www.facebook.com/impactbison" target="_blank" class="social-media-icons">
               <i id="facebook-icon" class="fa fa-facebook-square"></i>
@@ -32,7 +37,8 @@
             </a>
           </li>
           <li>
-            <a href="https://www.youtube.com/impactbison" target="_blank" class="social-media-icons">
+            <!--Need custom URL @ https://www.youtube.com/impactbison-->
+            <a href="https://www.youtube.com/channel/UCzh0AUtdYAkc_WT7IXO3cEA" target="_blank" class="social-media-icons">
               <i id="youtube-icon" class="fa fa-youtube-square"></i>
             </a>
           </li>
@@ -41,23 +47,16 @@
               <i id="email-icon" class="fa fa-envelope-square"></i>
             </a>
           </li>
-        </ul>
-        <!--/*Navigation Menu : Right*/-->
-        <ul class="nav navbar-nav navbar-right">
-          <li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-barcode"></span> Identify</a>
-            <ul class="dropdown-menu">
-              <li><a href="#">Our Purpose</a></li>
-              <li><a href="#">Our Mission</a></li>
-              <li><a href="#">Our Vision</a></li>
-              <li><a href="#">Our Values</a></li> 
-            </ul>
+          <li><?php /*This will point to the About page with a lot more insight into our Chapter.*/ ?>
+            <a href="#" data-toggle="modal" data-target="#modal-in-progress">
+              <i class="fa fa-users"></i>
+              &nbsp;Meet Us
+            </a>
           </li>
           <li>
-            <a href="#">
-              <!--span class="glyphicon glyphicon-star"></span-->
+            <a href="#" data-toggle="modal" data-target="#modal-in-progress">
               <i id="trophy-icon" class="fa fa-trophy"></i>
-               Team Up
+              &nbsp;Team Up
             </a>
           </li>
           <li class="dropdown">
@@ -66,16 +65,16 @@
             </a>
             <ul class="dropdown-menu">
               <li><a href="studies">Our Studies</a></li>
-              <li><a href="#">Our Services</a></li>
+              <li><a href="#" data-toggle="modal" data-target="#modal-in-progress">Our Services</a></li>
             </ul>
           </li>
-          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li>
+          <!--li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li-->
         </ul>
       </div>
     </div>
   </nav>
 
-  <!-- Modal -->
+  <!-- Modal-411 -->
   <div class="modal fade" id="modal-411" tabindex="-1" role="dialog" aria-labelledby="modal-411-label">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -86,6 +85,33 @@
         <div class="modal-body">
           <h3>This week, we will be studying together at 7pm in Douglass Hall rm. 238 on the topic of LOVE&hellip;</h3>
           <h3>Come get some "food" and hugs, fam!</h3>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+          <!--a href="studies" target="_parent"><button type="button" class="btn btn-default" data-dismiss="modal">Open 'Studies' Page</button></a-->
+          <!--button type="button" class="btn btn-primary">Save changes</button-->
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <!-- Modal-In-Progress -->
+  <div class="modal fade" id="modal-in-progress" tabindex="-1" role="dialog" aria-labelledby="modal-in-progress-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h1 class="modal-title">Coming Soon!</h1>
+        </div>
+        <div class="modal-body">
+          <h3>We are still working on this website and implementing certain webpages. 
+            Although it doesn't take long to put up a webpage, we have day jobs and go to school. 
+            We welcome any help to rebuild our movement on campus. If you're interested in helping, then please 
+            <a href="mailto:impactbison@gmail.com?Subject=Will%20help%20Impact" target="_blank">email us </a>
+            (<a href="mailto:impactbison@gmail.com" target="_blank">impactbison@gmail.com</a>). Thanks for understanding, fam.
+          </h3>
+          <h4>Meanwhile, check out some of <a href="videos">our online videos</a>!
+          </h4>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
