@@ -1,25 +1,3 @@
-<?php
-/******************************************************************************
- * Purpose: To provide videos which can speak louder than a picture.
- *===================================================================
- * Types of Videos:
- *------------------
- * 1) Biblical Videos (*-gospel)
- * 2) "How To"/Educational Videos (*-howto)
- * 3) Encouragement/Motivational Videos (*-motive)
- * - Draw Your Future - https://youtu.be/zESeeaFDVSw
- * 4) Promotional Videos (*-promo)
- *--------------------------------------
- * https://youtu.be/B5QT5vpY8_I  (We Believe - Prayer Movement: Promo)
- * https://youtu.be/dvxwQ6TIRMQ  (Incarnational Living - Efrem Smith)
- * https://youtu.be/i-mc-7qb9tQ  (Jump - Efrem Smith)
- * https://youtu.be/K0X0H8zYEnw?list=PLGUncAHVlx13LJHJjRiEnzqzQ3OTh8pRt (I am Second - Propaganda)
- *****************************************************************************/
-?>
-
-<?php/** PAGE TOP **********************************************************/?>
-
-<?php/** PAGE BODY *********************************************************/?>
 <div class="container">
   <div class="row">
       <ul id="video-categories" class="nav nav-tabs nav-justified">
@@ -44,7 +22,7 @@
           </div>
         </li>
       </ul>
-  </div><?php/*end:row*/?>
+  </div>
   <div class="row">
     <div class="col-md-12">
       <div class="tab-content">
@@ -52,10 +30,6 @@
         <div id="video-panel-promo" class="tab-pane fade in active">
           <!--Animate this-->
           <h3 class="video-gallery-heading">3, 2, 1... Showtime!</h3>        
-          <?php /** Video Gallery
-               * - original YouTube iframe width:560, height:315;
-               * - nice look YouTube iframe width:360, height:190;
-          */ ?>
           <div class="video-gallery">
             <div class="row">
               <div class="col-md-4">
@@ -88,7 +62,7 @@
                   <h3 class="text-center"><span class="label label-primary">National Conference</span></h3>
                 </div>
               </div>
-            </div><?php /*<!--end:row-->*/ ?>
+            </div>
             <div class="row">
               <div class="col-md-4">
                 <div id="impactconference10" class="well">
@@ -121,7 +95,7 @@
                   <h3 class="text-center"><span class="label label-primary">National Conference</span></h3>
                 </div>
               </div>
-            </div><?php /*<!--end:row-->*/ ?>
+            </div>
             <div class="row">
               <div class="col-md-6 col-md-offset-3">
                 <div id="impactconference10years" class="well">
@@ -133,8 +107,8 @@
                   <h3 class="text-center"><span class="label label-primary">National Conference</span></h3>
                 </div>
               </div>
-            </div><?php /*<!--end:row-->*/ ?>
-          </div><?php /*<!--end:video-gallery-->*/ ?>
+            </div>
+          </div>
 
         </div><!--end:video-panel-promo-->
 
@@ -153,7 +127,7 @@
                 <h3 class="text-center"><span class="label label-primary">Spoken Word</span></h3>
               </div>
             </div>
-          </div><?php /*<!--end:row-->*/ ?>
+          </div>
         </div><!--end:video-panel-gospel-->
 
         <div id="video-panel-grow" class="tab-pane fade">
@@ -165,11 +139,8 @@
           <h3>Be Encouraged, Fam</h3>
           <p>Currently, we are creating a collection of videos for this section. Thanks for being patient with us.</p>
         </div>
-      </div><?php/*end:tab-content*/?>
+      </div>
 
-    </div><?php/*end:col*/?>
-  </div><?php/*end:row*/?>
-</div><?php/*end:container*/?>
-
-<?php/** PAGE BOTTOM *******************************************************/?>
-
+    </div>
+  </div>
+</div>
