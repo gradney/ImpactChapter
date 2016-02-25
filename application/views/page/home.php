@@ -163,6 +163,7 @@
         <h2>Do you know your - <span class="italic">purpose?</span></h2>
         <hr style="border-color: black; height:10px"/>
         <h1 id="purpose-headline">Bottom Line</h1>
+        <h2>We are a <em><span class="bold">biblical leadership development</span></em> ministry.</h2>
         <h2>Our <em><span class="bold">purpose</span></em> is to develop the next leaders 
           with an unshakeable integrity and a humble character that loves to serve.</h2>
       </div>
