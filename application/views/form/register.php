@@ -9,14 +9,14 @@
         <label for="lastname">Last Name</label>
         <input type="text" name="lastname" id="lastname" placeholder="Luther" required/><br/>
         <label for="event">Experience</label>
-        <select name="event" size="3" required>
+        <select name="event" required>
           <option value="none"></option>
           <option value="retreat">Fall Retreat</option>
           <option value="institute">Impact Leadership Institute</option>
           <option value="conference">National Conference</option>
           <option value="mission">Summer Mission Actperience</option>
         </select>
-        <input type="text" name="username" id="username" placeholder="mluther"/><br />
+        <br/>
         <button type="submit" name="register" onClick="javascript:ajax_post();">Register!</button><br/>
         <br/>
         <div id="status"></div>
