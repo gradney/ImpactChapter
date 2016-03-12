@@ -1,3 +1,24 @@
+<?php
+/******************************************************************************
+ * Purpose: To provide videos which can speak louder than a picture.
+ *===================================================================
+ * Types of Videos:
+ *------------------
+ * 1) Biblical Videos (*-gospel)
+ * 2) "How To"/Educational Videos (*-howto)
+ * 3) Encouragement/Motivational Videos (*-motive)
+ * - Draw Your Future - https://youtu.be/zESeeaFDVSw
+ * 4) Promotional Videos (*-promo)
+ *--------------------------------------
+ * https://youtu.be/-tZrUze0UTA  (We Are Together - Song)
+ *
+ * https://youtu.be/B5QT5vpY8_I  (We Believe - Prayer Movement: Promo)
+ * https://youtu.be/dvxwQ6TIRMQ  (Incarnational Living - Efrem Smith)
+ * https://youtu.be/i-mc-7qb9tQ  (Jump - Efrem Smith)
+ * https://youtu.be/K0X0H8zYEnw?list=PLGUncAHVlx13LJHJjRiEnzqzQ3OTh8pRt (I am Second - Propaganda)
+ * https://youtu.be/s8y-p9Zalh0 (Meet the Charity That's Using Tech for Good) 
+ *****************************************************************************/
+?>
 <div class="container">
   <div class="row">
       <ul id="video-categories" class="nav nav-tabs nav-justified">
