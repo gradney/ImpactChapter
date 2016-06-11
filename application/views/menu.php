@@ -1,71 +1,43 @@
-
-  <!--/*Navigation Bar*/-->
-  <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!--/*Navigation Header : logo or brand, x-small screen menu*/-->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#im-navigation-bar">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span> 
-        </button>
-        <a class="navbar-brand" href="home">
-          <img id="impact-chapter-logo" src="<?php echo base_url().'img/impact_logo_white.jpg';?>" height="35" width="70"></img>
+  <div id="banner" class="container">
+    <div class="row" style="margin-top:1em; margin-bottom:1em">
+      <div class="col-xs-10" style="width:180px">
+        <a class="national-logo" href="http://www.impactmovement.org">
+          <img id="impact-chapter-logo" src="<?php echo base_url().'img/impact_logo_white.jpg';?>"></img>
         </a>
       </div>
-      <div class="collapse navbar-collapse" id="im-navigation-bar">
-        <!--/*Navigation Menu : Left*/-->
-        <ul class="nav navbar-nav">
-          <!--li><a href="#"><i class="fa fa-home"></i></a></li-->
-          <li class="menu-411">
-            <a href="#" data-toggle="modal" data-target="#modal-411"><i class="fa fa-exclamation-circle"></i> 411</a>
-          </li>
-          <!--li class="dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-barcode"></span> Identify</a>
-          </li-->
+      <div class="col-xs-3 pull-right">
+        <ul class="nav nav-pills navbar-right">
+          <li style="padding:0px 5px; font-size:1.25em; color:blue; font-family:Arial, Helvetica, sans-serif; font-style:italic;">Follow us&nbsp;<i class="fa fa-hand-o-right fa-lg"></i></li>
+          <li><a href="https://www.facebook.com/groups/186878238011489/" style="padding: 0px 5px 0px 5px"><i class="fa fa-facebook-square fa-3x"></i></a></li>
+          <li><a href="https://twitter.com/impactbison" style="padding: 0px 5px 0px 5px"><i class="fa fa-twitter-square fa-3x"></i></a></li>
+          <li><a href="mailto:impactbison@gmail.com?Subject=Interested%20In%20The%20Chapter" style="padding: 0px 5px 0px 5px"><i class="fa fa-envelope-square fa-3x"></i></a></li>
         </ul>
-        <!--/*Navigation Menu : Right*/-->
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href="https://www.facebook.com/impactbison" target="_blank" class="social-media-icons">
-              <i id="facebook-icon" class="fa fa-facebook-square"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://twitter.com/impactbison" target="_blank" class="social-media-icons">
-              <i id="twitter-icon" class="fa fa-twitter-square"></i>
-            </a>
-          </li>
-          <li>
-            <!--Need custom URL @ https://www.youtube.com/impactbison-->
-            <a href="https://www.youtube.com/channel/UCzh0AUtdYAkc_WT7IXO3cEA" target="_blank" class="social-media-icons">
-              <i id="youtube-icon" class="fa fa-youtube-square"></i>
-            </a>
-          </li>
-          <li>
-            <a href="mailto:impactbison@gmail.com?Subject=Interested%20in%20Impact" target="_blank" class="social-media-icons">
-              <i id="email-icon" class="fa fa-envelope-square"></i>
-            </a>
-          </li>
-          <li><?php /*This will point to the About page with a lot more insight into our Chapter.*/ ?>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-default">
+    <div id="navigation-bar" class="container">
+      <div id="im-navigation-bar">
+        <ul class="nav navbar-nav">
+          <li id="menu-about" class="menu-option">
             <a href="#" data-toggle="modal" data-target="#modal-in-progress">
               <i class="fa fa-users"></i>
               &nbsp;Meet Us
             </a>
           </li>
-          <li>
+          <li id="menu-connect" class="menu-option">
             <a href="#" data-toggle="modal" data-target="#modal-in-progress">
               <i id="trophy-icon" class="fa fa-trophy"></i>
               &nbsp;Team Up
             </a>
           </li>
-          <li class="dropdown">
+          <li  id="menu-services" class="menu-option dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
               <span class="glyphicon glyphicon-heart"></span> Take Action
             </a>
             <ul class="dropdown-menu">
               <li><a href="studies">Our Studies</a></li>
-              <li><a href="#" data-toggle="modal" data-target="#modal-in-progress">Our Services</a></li>
+              <!--li><a href="#" data-toggle="modal" data-target="#modal-in-progress">Our Services</a></li-->
             </ul>
           </li>
           <!--li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li-->
@@ -73,6 +45,9 @@
       </div>
     </div>
   </nav>
+
+  <?php /*separater between menu and page.*/ ?>
+  <div id="navbar-border-bottom" class="container-fluid"></div>
 
   <!-- Modal-411 -->
   <div class="modal fade" id="modal-411" tabindex="-1" role="dialog" aria-labelledby="modal-411-label">

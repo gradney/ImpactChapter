@@ -1,3 +1,62 @@
+<?php 
+/**
+  *Excellent Website Example: 
+  * 1) http://www.desitin.com/
+  * 2) http://www.google.org/
+  */
+?>
+
+  <?php /*Section: Purposeful Thought - Splash*/ ?>
+  <div id="purposeful-thought" class="container-fluid text-center" style="background-color:black">
+    <div class="row top-buffer-20">
+      <div class="col-xs-12" style="padding-left: 50px">
+        <div id="purpose-jumbotron" class="jumbotron">
+          <a target="_blank" href="https://www.ted.com/talks/rick_warren_on_a_life_of_purpose">
+            <img src="<?php echo base_url().'img/web/purpose-defined.jpg';?>" class="img-responsive"></img><!--wid:625, height:250, max-width="625" height="auto"-->
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <?php /*Section: Howard University - Purpose*/ ?>    
+  <div id="purpose-ministry" class="container">
+    <div class="row top-buffer-20" style="padding-bottom: 30px">
+      <div class="col-xs-12">
+        <h2>Do you know your - <span class="italic">purpose?</span></h2>
+        <hr style="border-color: black; height:10px"/>
+        <h1 id="purpose-headline">Bottom Line</h1>
+        <h2>We are a <em><span class="bold">biblical leadership development</span></em> ministry.</h2>
+        <h2>Our <em><span class="bold">purpose</span></em> is to develop the next leaders 
+          with an unshakeable integrity and a humble character that loves to serve.</h2>
+      </div>
+    </div>
+  </div>
+
+  <?php /*Section: Howard University - Vision*/ ?>
+  <div id="vision" class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 id="vision-headline"><span class="underline">Vision</span></h1>
+        <h3 id="vision-statement">Our vision is best explained through a collage based on our collective actions.</h3>
+        <!--
+        - unshakable prayer
+        - unity in worship
+        - family-oriented community
+        - church partnerships with like-mindedness
+        - serving neighbors with humility
+        - sharing the Gospel with gentleness
+        - encouraging each other's hearts
+        - strengthening each other's gifts
+        - loving each other's spirits
+        -->
+        <div>
+          <!--Replace this image (of various images) with a table rendering each each and allowing users to click on an each to enlarge for actually seeing the photo-->
+          <img src="<?php echo base_url().'img/vision/impact_howard_vision.png';?>" class="img-responsive" id="vision-picture"></img><!--height="auto" max-width="600"-->
+        </div>
+      </div>
+    </div>
+  </div>
 
   <?php /*Section: Carousel of Advertisements*/ ?>
   <div class="container-fluid">
@@ -143,57 +202,6 @@
     </div><!--row-->
   </div><!--container-->
 
-  <?php /*Section: Purposeful Thought - Splash*/ ?>
-  <div id="purposeful-thought" class="container-fluid text-center" style="background-color:black">
-    <div class="row top-buffer-20">
-      <div class="col-xs-12" style="padding-left: 50px">
-        <div id="purpose-jumbotron" class="jumbotron">
-          <a target="_blank" href="https://www.ted.com/talks/rick_warren_on_a_life_of_purpose">
-            <img src="<?php echo base_url().'img/web/purpose-defined.jpg';?>" class="img-responsive"></img><!--wid:625, height:250, max-width="625" height="auto"-->
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <?php /*Section: Howard University - Purpose*/ ?>    
-  <div id="purpose-ministry" class="container">
-    <div class="row top-buffer-20" style="padding-bottom: 30px">
-      <div class="col-xs-12">
-        <h2>Do you know your - <span class="italic">purpose?</span></h2>
-        <hr style="border-color: black; height:10px"/>
-        <h1 id="purpose-headline">Bottom Line</h1>
-        <h2>We are a <em><span class="bold">biblical leadership development</span></em> ministry.</h2>
-        <h2>Our <em><span class="bold">purpose</span></em> is to develop the next leaders 
-          with an unshakeable integrity and a humble character that loves to serve.</h2>
-      </div>
-    </div>
-  </div>
-
-  <?php /*Section: Howard University - Vision*/ ?>
-  <div id="vision" class="container-fluid">
-    <div class="row">
-      <div class="col-xs-12">
-        <h1 id="vision-headline"><span class="underline">Vision</span></h1>
-        <h3 id="vision-statement">Our vision is best explained through a collage based on our collective actions.</h3>
-        <!--
-        - unshakable prayer
-        - unity in worship
-        - family-oriented community
-        - church partnerships with like-mindedness
-        - serving neighbors with humility
-        - sharing the Gospel with gentleness
-        - encouraging each other's hearts
-        - strengthening each other's gifts
-        - loving each other's spirits
-        -->
-        <div>
-          <!--Replace this image (of various images) with a table rendering each each and allowing users to click on an each to enlarge for actually seeing the photo-->
-          <img src="<?php echo base_url().'img/vision/impact_howard_vision.png';?>" class="img-responsive" id="vision-picture"></img><!--height="auto" max-width="600"-->
-        </div>
-      </div>
-    </div>
-  </div>
 
   <?php /*Section: Howard University - Purpose*/ ?>
   <div id="purpose-uniqueness" class="container">
