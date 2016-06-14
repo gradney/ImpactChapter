@@ -22,13 +22,32 @@ div.well {
 
 i.fa.fa-facebook-square, i.fa.fa-twitter-square, i.fa.fa-youtube-square, i.fa.fa-envelope-square, 
 i.fa.fa-trophy {
-    font-size: 18px;
+    /*font-size: 18px;*/
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
 }
 
 img.left-thumbnail {
     float: left;
     margin: 0px 10px 10px 0px;
 }
+
+li.menu-option {
+    font-size: 2em;
+}
+
+li.menu-option a:link { color: gray; }
+li.menu-option a:visited { color: gray; }
+li.menu-option a:hover { 
+    color: green; 
+    background-color: yellow;
+    border-radius: 30px;
+    text-decoration: none;
+}
+li.menu-option a:active { color: black; }
 
 li a.nounderline { text-decoration: none; }
 
@@ -77,11 +96,12 @@ thead {
     border-radius: 4%;
 }
 .italic { font-style: italic; }
-.navbar-brand { margin-bottom: 10px;}
 .navbar {
     background-color: white !important;
-    /*padding-bottom: 10px;*/
-    border-bottom: 5px solid #b22222;/*firebrick*/
+}
+.navbar-brand { margin-bottom: 10px;}
+.navbar-default {
+    border: 0px solid #ffffff;
 }
 .panel { border: 0px solid #f5f5f5 !important; }
 .panel-heading { background-color: #fff !important; }
@@ -168,6 +188,11 @@ thead {
 #purpose-jumbotron { background-color: transparent; padding: 0px; }
 
 #push { padding-bottom: 80px; /*10px + height of the footer element*/ }
+
+#navbar-border-bottom {
+    /*padding-bottom: 10px;*/
+    border-bottom: 5px solid #b22222;/*firebrick*/
+}
 
 #studies-poster {
     background-color: #ffffff;

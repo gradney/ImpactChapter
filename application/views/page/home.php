@@ -1,8 +1,15 @@
 <?php 
-/**
-  *Excellent Website Example: 
+/** Excellent!
+  * Website Examples: 
   * 1) http://www.desitin.com/
   * 2) http://www.google.org/
+  *
+  * Video Examples:
+  * 1) https://www.youtube.com/watch?v=4U5Eh_xTx0A (AVON Walk promotional)
+  *
+  * Verses:
+  * Food - John 6:25-29
+  * Love - John 15:9-17
   */
 ?>
 

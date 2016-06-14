@@ -8,32 +8,42 @@
       <div class="col-xs-3 pull-right">
         <ul class="nav nav-pills navbar-right">
           <li style="padding:0px 5px; font-size:1.25em; color:blue; font-family:Arial, Helvetica, sans-serif; font-style:italic;">Follow us&nbsp;<i class="fa fa-hand-o-right fa-lg"></i></li>
-          <li><a href="https://www.facebook.com/groups/186878238011489/" style="padding: 0px 5px 0px 5px"><i class="fa fa-facebook-square fa-3x"></i></a></li>
+          <li><a href="https://www.facebook.com/impactbison" style="padding: 0px 5px 0px 5px"><i class="fa fa-facebook-square fa-3x"></i></a></li>
+          <!-- Our Facebook group is @ https://www.facebook.com/groups/186878238011489/ -->
           <li><a href="https://twitter.com/impactbison" style="padding: 0px 5px 0px 5px"><i class="fa fa-twitter-square fa-3x"></i></a></li>
           <li><a href="mailto:impactbison@gmail.com?Subject=Interested%20In%20The%20Chapter" style="padding: 0px 5px 0px 5px"><i class="fa fa-envelope-square fa-3x"></i></a></li>
         </ul>
       </div>
     </div>
   </div>
-  <nav class="navbar navbar-default">
+
+  <nav class="navbar">
     <div id="navigation-bar" class="container">
-      <div id="im-navigation-bar">
-        <ul class="nav navbar-nav">
-          <li id="menu-about" class="menu-option">
+        <ul class="nav navbar-nav" style="margin:auto; float:none; width:70%">
+          <li id="menu-chapter" class="menu-option">
             <a href="#" data-toggle="modal" data-target="#modal-in-progress">
-              <i class="fa fa-users"></i>
-              &nbsp;Meet Us
+              <i class="fa fa-home"></i><?php/*"fa fa-university" navbar-default*/?>
+              &nbsp;Home
             </a>
           </li>
+          <li class="menu-break" style="padding-top:8px"><span style="font-size:2em; font-family:'Courier New', monospace">|<span></li>
+          <li id="menu-about" class="menu-option">
+              <a href="#" data-toggle="modal" data-target="#modal-in-progress">
+                <i class="fa fa-users"></i>
+                &nbsp;Meet Us
+              </a>
+          </li>
+          <li class="menu-break" style="padding-top:8px"><span style="font-size:2em; font-family:'Courier New', monospace">|<span></li>
           <li id="menu-connect" class="menu-option">
             <a href="#" data-toggle="modal" data-target="#modal-in-progress">
-              <i id="trophy-icon" class="fa fa-trophy"></i>
+              <i class="fa fa-trophy"></i>
               &nbsp;Team Up
             </a>
           </li>
+          <li class="menu-break" style="padding-top:8px"><span style="font-size:2em; font-family:'Courier New', monospace">|<span></li>
           <li  id="menu-services" class="menu-option dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-              <span class="glyphicon glyphicon-heart"></span> Take Action
+              <i class="fa fa-heartbeat"></i> Take Action
             </a>
             <ul class="dropdown-menu">
               <li><a href="studies">Our Studies</a></li>
@@ -42,7 +52,6 @@
           </li>
           <!--li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li-->
         </ul>
-      </div>
     </div>
   </nav>
 
