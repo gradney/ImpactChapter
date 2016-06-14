@@ -7,11 +7,11 @@
       </div>
       <div class="col-xs-3 pull-right">
         <ul class="nav nav-pills navbar-right">
-          <li style="padding:0px 5px; font-size:1.25em; color:blue; font-family:Arial, Helvetica, sans-serif; font-style:italic;">Follow us&nbsp;<i class="fa fa-hand-o-right fa-lg"></i></li>
-          <li><a href="https://www.facebook.com/impactbison" style="padding: 0px 5px 0px 5px"><i class="fa fa-facebook-square fa-3x"></i></a></li>
+          <li style="padding:0px 5px; font-size:1.25em; color:gray; font-family:Arial, Helvetica, sans-serif; font-style:italic;">Follow us&nbsp;<i class="fa fa-hand-o-right fa-lg"></i></li>
+          <li><a href="https://www.facebook.com/impactbison" style="padding: 0px 5px 0px 5px"><i class="fa fa-facebook-square fa-2x"></i></a></li>
           <!-- Our Facebook group is @ https://www.facebook.com/groups/186878238011489/ -->
-          <li><a href="https://twitter.com/impactbison" style="padding: 0px 5px 0px 5px"><i class="fa fa-twitter-square fa-3x"></i></a></li>
-          <li><a href="mailto:impactbison@gmail.com?Subject=Interested%20In%20The%20Chapter" style="padding: 0px 5px 0px 5px"><i class="fa fa-envelope-square fa-3x"></i></a></li>
+          <li><a href="https://twitter.com/impactbison" style="padding: 0px 5px 0px 5px; color: #4099FF"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+          <li><a href="mailto:impactbison@gmail.com?Subject=Send%20Me%20Updates" style="padding: 0px 5px 0px 5px; color: #000099"><i class="fa fa-envelope-square fa-2x"></i></a></li>
         </ul>
       </div>
     </div>
