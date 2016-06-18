@@ -35,6 +35,11 @@ img.left-thumbnail {
     margin: 0px 10px 10px 0px;
 }
 
+img#teaching {
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
 li.menu-option {
     font-size: 2em;
 }
@@ -190,8 +195,12 @@ thead {
 #push { padding-bottom: 80px; /*10px + height of the footer element*/ }
 
 #navbar-border-bottom {
-    /*padding-bottom: 10px;*/
-    border-bottom: 5px solid #b22222;/*firebrick*/
+    height:5px;
+    background: #b22222; /* For browsers that do not support gradients, color is firebrick */
+    background: -webkit-linear-gradient(left,rgba(255,0,0,0),rgba(178,34,34,1),rgba(255,0,0,0)); /*Safari 5.1-6*/
+    background: -o-linear-gradient(right,rgba(255,0,0,0),rgba(178,34,34,1),rgba(255,0,0,0)); /*Opera 11.1-12*/
+    background: -moz-linear-gradient(right,rgba(255,0,0,0),rgba(178,34,34,1),rgba(255,0,0,0)); /*Fx 3.6-15*/
+    background: linear-gradient(to right, rgba(255,0,0,0),rgba(178,34,34,1),rgba(255,0,0,0)); /*Standard*/
 }
 
 #studies-poster {

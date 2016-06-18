@@ -17,6 +17,9 @@
  * https://youtu.be/i-mc-7qb9tQ  (Jump - Efrem Smith)
  * https://youtu.be/K0X0H8zYEnw?list=PLGUncAHVlx13LJHJjRiEnzqzQ3OTh8pRt (I am Second - Propaganda)
  * https://youtu.be/s8y-p9Zalh0 (Meet the Charity That's Using Tech for Good) 
+
+ * https://www.youtube.com/watch?v=uqi75lIkxT0 @ 5:20 about Real Talk on L.A. Diversity (Propaganda w/World Impact)
+ * https://www.youtube.com/watch?v=bS78RjMKV0g (Music: American Dream - John Givez)
  *****************************************************************************/
 ?>
 <div class="container">
@@ -43,7 +46,7 @@
           </div>
         </li>
       </ul>
-  </div>
+  </div><?php/*end:row*/?>
   <div class="row">
     <div class="col-md-12">
       <div class="tab-content">
@@ -51,6 +54,10 @@
         <div id="video-panel-promo" class="tab-pane fade in active">
           <!--Animate this-->
           <h3 class="video-gallery-heading">3, 2, 1... Showtime!</h3>        
+          <?php /** Video Gallery
+               * - original YouTube iframe width:560, height:315;
+               * - nice look YouTube iframe width:360, height:190;
+          */ ?>
           <div class="video-gallery">
             <div class="row">
               <div class="col-md-4">
@@ -83,7 +90,7 @@
                   <h3 class="text-center"><span class="label label-primary">National Conference</span></h3>
                 </div>
               </div>
-            </div>
+            </div><?php /*<!--end:row-->*/ ?>
             <div class="row">
               <div class="col-md-4">
                 <div id="impactconference10" class="well">
@@ -116,7 +123,7 @@
                   <h3 class="text-center"><span class="label label-primary">National Conference</span></h3>
                 </div>
               </div>
-            </div>
+            </div><?php /*<!--end:row-->*/ ?>
             <div class="row">
               <div class="col-md-6 col-md-offset-3">
                 <div id="impactconference10years" class="well">
@@ -128,8 +135,8 @@
                   <h3 class="text-center"><span class="label label-primary">National Conference</span></h3>
                 </div>
               </div>
-            </div>
-          </div>
+            </div><?php /*<!--end:row-->*/ ?>
+          </div><?php /*<!--end:video-gallery-->*/ ?>
 
         </div><!--end:video-panel-promo-->
 
@@ -148,7 +155,7 @@
                 <h3 class="text-center"><span class="label label-primary">Spoken Word</span></h3>
               </div>
             </div>
-          </div>
+          </div><?php /*<!--end:row-->*/ ?>
         </div><!--end:video-panel-gospel-->
 
         <div id="video-panel-grow" class="tab-pane fade">
@@ -160,8 +167,11 @@
           <h3>Be Encouraged, Fam</h3>
           <p>Currently, we are creating a collection of videos for this section. Thanks for being patient with us.</p>
         </div>
-      </div>
+      </div><?php/*end:tab-content*/?>
 
-    </div>
-  </div>
-</div>
+    </div><?php/*end:col*/?>
+  </div><?php/*end:row*/?>
+</div><?php/*end:container*/?>
+
+<?php/** PAGE BOTTOM *******************************************************/?>
+

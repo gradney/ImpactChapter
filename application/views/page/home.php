@@ -13,6 +13,30 @@
   */
 ?>
 
+  <div id="focus" class="container text-center" >
+    <div class="row">
+      <div class="col-xs-12">
+        <div id="focus-jumbotron" class="jumbotron" style="background-color:transparent; padding:0px">
+          <p style="text-align:justify; font-size:1.75em; padding: 20px 0px 0px 0px">We focus on the understanding and practice of four basic principles with respect to one's God-given purpose: 
+          </p>
+          <div class="row" style="font-size:2em; font-weight:bold; margin-bottom:10px">
+            <div class="col-md-3">Faith</div>
+            <div class="col-md-3">Leadership</div>
+            <div class="col-md-3"><a href="https://www.aspiration.com/how-aspiration-works/" target="_blank">Aspiration</a></div>
+            <div class="col-md-3">Stewardship</div>
+          </div>
+          <a target="_blank" href="https://www.ted.com/talks/rick_warren_on_a_life_of_purpose">
+            <img id="teaching" class="img-responsive" src="<?php echo base_url().'img/impact-day/20160326_AsaTeaches.jpg';?>" style="margin: auto; border-radius:50px"><img>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
   <?php /*Section: Purposeful Thought - Splash*/ ?>
   <div id="purposeful-thought" class="container-fluid text-center" style="background-color:black">
     <div class="row top-buffer-20">

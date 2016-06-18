@@ -1,49 +1,45 @@
-  <div id="banner" class="container">
-    <div class="row" style="margin-top:1em; margin-bottom:1em">
-      <div class="col-xs-9" style="width:180px; padding:0px 10px 0px 0px">
-        <a class="national-logo" href="http://www.impactmovement.org">
-          <img id="impact-chapter-logo" src="<?php echo base_url().'img/impact_logo_white.jpg';?>"></img>
+
+  <div id="topofsite" class="container-fluid">
+    <div class="row" style="margin-top:20px; margin-bottom:20px">
+      <div class="col-xs-8">
+        <a class="navbar-brand" href="home">
+          <img id="impact-chapter-logo" src="<?php echo base_url().'img/impact_logo_white.jpg';?>" height="70" width="155"></img>
         </a>
-      </div>
-      <div class="col-xs-3 pull-right">
-        <ul class="nav nav-pills navbar-right">
-          <li style="padding:0px 5px; font-size:1.25em; color:gray; font-family:Arial, Helvetica, sans-serif; font-style:italic;">Follow us&nbsp;<i class="fa fa-hand-o-right fa-lg"></i></li>
-          <li><a href="https://www.facebook.com/impactbison" style="padding: 0px 5px 0px 5px"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-          <!-- Our Facebook group is @ https://www.facebook.com/groups/186878238011489/ -->
-          <li><a href="https://twitter.com/impactbison" style="padding: 0px 5px 0px 5px; color: #4099FF"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-          <li><a href="mailto:impactbison@gmail.com?Subject=Send%20Me%20Updates" style="padding: 0px 5px 0px 5px; color: #000099"><i class="fa fa-envelope-square fa-2x"></i></a></li>
-        </ul>
       </div>
     </div>
   </div>
-
-  <nav class="navbar" style="margin-bottom:0px">
-    <div id="navigation-bar" class="container collapse navbar-collapse">
-        <ul class="nav navbar-nav" style="margin:auto; float:none; width:70%">
-          <li id="menu-chapter" class="menu-option">
+  <!--/*Navigation Bar*/-->
+  <nav class="navbar navbar-default">
+    <div id="navigation-bar" class="container-fluid">
+      <!--/*Navigation Header : logo or brand, x-small screen menu*/-->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#im-navigation-bar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+      <div class="collapse navbar-collapse" id="im-navigation-bar">
+        <!--/*Navigation Menu : Left*/-->
+        <!--ul class="nav navbar-nav">
+        </ul-->
+        <!--/*Navigation Menu : Right*/-->
+        <ul class="nav navbar-nav navbar-right">
+          <li id="menu-about" class="menu-option"><?php /*This will point to the About page with a lot more insight into our Chapter.*/ ?>
             <a href="#" data-toggle="modal" data-target="#modal-in-progress">
-              <i class="fa fa-home"></i><?php/*"fa fa-university" navbar-default*/?>
-              &nbsp;Home
+              <i class="fa fa-users"></i>
+              &nbsp;Meet Us
             </a>
           </li>
-          <li class="menu-break" style="padding-top:8px"><span style="font-size:2em; font-family:'Courier New', monospace">|<span></li>
-          <li id="menu-about" class="menu-option">
-              <a href="#" data-toggle="modal" data-target="#modal-in-progress">
-                <i class="fa fa-users"></i>
-                &nbsp;Meet Us
-              </a>
-          </li>
-          <li class="menu-break" style="padding-top:8px"><span style="font-size:2em; font-family:'Courier New', monospace">|<span></li>
           <li id="menu-connect" class="menu-option">
             <a href="#" data-toggle="modal" data-target="#modal-in-progress">
-              <i class="fa fa-trophy"></i>
+              <i id="trophy-icon" class="fa fa-trophy"></i>
               &nbsp;Team Up
             </a>
           </li>
-          <li class="menu-break" style="padding-top:8px"><span style="font-size:2em; font-family:'Courier New', monospace">|<span></li>
           <li  id="menu-services" class="menu-option dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-              <i class="fa fa-heartbeat"></i> Take Action
+              <span class="glyphicon glyphicon-heart"></span> Take Action
             </a>
             <ul class="dropdown-menu">
               <li><a href="studies">Our Studies</a></li>
@@ -52,6 +48,7 @@
           </li>
           <!--li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li-->
         </ul>
+      </div>
     </div>
   </nav>
 
