@@ -1,59 +1,47 @@
-  <div id="banner" class="container">
-    <div class="row" style="margin-top:1em; margin-bottom:1em">
-      <div class="col-xs-9" style="width:180px; padding:0px 10px 0px 0px">
-        <a class="national-logo" href="http://www.impactmovement.org">
-          <img id="impact-chapter-logo" src="<?php echo base_url().'img/impact_logo_white.jpg';?>"></img>
-        </a>
-      </div>
-      <div class="col-xs-3 pull-right">
-        <ul class="nav nav-pills navbar-right">
-          <li style="padding:0px 5px; font-size:1.25em; color:gray; font-family:Arial, Helvetica, sans-serif; font-style:italic;">Follow us&nbsp;<i class="fa fa-hand-o-right fa-lg"></i></li>
-          <li><a href="https://www.facebook.com/impactbison" style="padding: 0px 5px 0px 5px"><i class="fa fa-facebook-square fa-2x"></i></a></li>
-          <!-- Our Facebook group is @ https://www.facebook.com/groups/186878238011489/ -->
-          <li><a href="https://twitter.com/impactbison" style="padding: 0px 5px 0px 5px; color: #4099FF"><i class="fa fa-twitter-square fa-2x"></i></a></li>
-          <li><a href="mailto:impactbison@gmail.com?Subject=Send%20Me%20Updates" style="padding: 0px 5px 0px 5px; color: #000099"><i class="fa fa-envelope-square fa-2x"></i></a></li>
-        </ul>
-      </div>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a id="national-logo" class="navbar-brand" href="http://www.impactmovement.org" style="height:100px">
+        <img id="impact-chapter-logo" src="<?php echo base_url().'img/impact_howard_logo.png';?>" style="max-height:100px"></img>
+      </a>
     </div>
-  </div>
 
-  <nav class="navbar" style="margin-bottom:0px">
-    <div id="navigation-bar" class="container collapse navbar-collapse">
-        <ul class="nav navbar-nav" style="margin:auto; float:none; width:70%">
-          <li id="menu-chapter" class="menu-option">
-            <a href="#" data-toggle="modal" data-target="#modal-in-progress">
-              <i class="fa fa-home"></i><?php/*"fa fa-university" navbar-default*/?>
-              &nbsp;Home
-            </a>
-          </li>
-          <li class="menu-break" style="padding-top:8px"><span style="font-size:2em; font-family:'Courier New', monospace">|<span></li>
-          <li id="menu-about" class="menu-option">
-              <a href="#" data-toggle="modal" data-target="#modal-in-progress">
-                <i class="fa fa-users"></i>
-                &nbsp;Meet Us
-              </a>
-          </li>
-          <li class="menu-break" style="padding-top:8px"><span style="font-size:2em; font-family:'Courier New', monospace">|<span></li>
-          <li id="menu-connect" class="menu-option">
-            <a href="#" data-toggle="modal" data-target="#modal-in-progress">
-              <i class="fa fa-trophy"></i>
-              &nbsp;Team Up
-            </a>
-          </li>
-          <li class="menu-break" style="padding-top:8px"><span style="font-size:2em; font-family:'Courier New', monospace">|<span></li>
-          <li  id="menu-services" class="menu-option dropdown">
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-              <i class="fa fa-heartbeat"></i> Take Action
-            </a>
-            <ul class="dropdown-menu">
-              <li><a href="studies">Our Studies</a></li>
-              <!--li><a href="#" data-toggle="modal" data-target="#modal-in-progress">Our Services</a></li-->
-            </ul>
-          </li>
-          <!--li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Sign In</a></li-->
-        </ul>
-    </div>
-  </nav>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav" style="padding:15px;position:absolute;top:45%;left:20%;font-size:2em;">
+        <li id="mnu-chapter" class="mnu-option">
+          <a href="#" data-toggle="modal" data-target="#modal-in-progress"><i class="fa fa-home"></i></a>
+        </li>
+        <li class="menu-break" style="font-size:35px"><span style="font-family:'Courier New', monospace">|<span></li>
+        <li id="mnu-about" class="mnu-option">
+          <a href="#" data-toggle="modal" data-target="#modal-in-progress"><i class="fa fa-users"></i>&nbsp;Meet Us</a>
+        </li>
+        <li class="menu-break" style="font-size:35px"><span style="font-family:'Courier New', monospace">|<span></li>
+        <li id="mnu-connect" class="mnu-option">
+          <a href="#" data-toggle="modal" data-target="#modal-in-progress"><i class="fa fa-trophy"></i>&nbsp;Team Up</a>
+        </li>
+        <li class="menu-break" style="font-size:35px"><span style="font-family:'Courier New', monospace">|<span></li>
+        <li id="mnu-services" class="mnu-option dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-heartbeat"></i>&nbsp;Thrive</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right" style="margin-top:20px;">
+        <li style="padding:0px 5px; font-size:1.25em; color:gray; font-family:Arial, Helvetica, sans-serif; font-style:italic;">Follow us&nbsp;<i class="fa fa-hand-o-right fa-lg"></i></li>
+        <li><a href="https://www.facebook.com/impactbison" style="padding: 0px 5px 0px 5px; color: #3b5999"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+        <!-- Our Facebook group is @ https://www.facebook.com/groups/186878238011489/ -->
+        <li><a href="https://twitter.com/impactbison" style="padding: 0px 5px 0px 5px; color: #4099FF"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+        <li><a href="mailto:impactbison@gmail.com?Subject=Send%20Me%20Updates" style="padding: 0px 5px 0px 5px; color: #000099"><i class="fa fa-envelope-square fa-2x"></i></a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
   <?php /*separater between menu and page.*/ ?>
   <div id="navbar-border-bottom" class="container-fluid"></div>

@@ -10,12 +10,19 @@
   * Verses:
   * Food - John 6:25-29
   * Love - John 15:9-17
+  <?php echo 'style="background-image:url(\''.base_url().'./img/impact-day/20160326_AsaTeaches.jpg\')"';?>
+
+              <!--img id="teaching" class="img-responsive" src="<?php echo base_url().'img/impact-day/20160326_AsaTeaches.jpg';?>" style="margin: auto; border-radius:50px"><img-->
+
+
+          <img id="teaching" class="img-responsive" src="<?php echo base_url().'img/impact-day/20160326_AsaTeaches.jpg';?>" style="margin: auto; border-radius:50px">
+
   */
 ?>
 
-  <div id="focus" class="container text-center" >
+  <!--div id="focus" class="container text-center" >
     <div class="row">
-      <div class="col-xs-12">
+      <div id="focus-training" class="col-xs-12">
         <div id="focus-jumbotron" class="jumbotron" style="background-color:transparent; padding:0px">
           <p style="text-align:justify; font-size:1.75em; padding: 20px 0px 0px 0px">We focus on the understanding and practice of four basic principles with respect to one's God-given purpose: 
           </p>
@@ -26,16 +33,119 @@
             <div class="col-md-3">Stewardship</div>
           </div>
           <a target="_blank" href="https://www.ted.com/talks/rick_warren_on_a_life_of_purpose">
-            <img id="teaching" class="img-responsive" src="<?php echo base_url().'img/impact-day/20160326_AsaTeaches.jpg';?>" style="margin: auto; border-radius:50px"><img>
           </a>
         </div>
       </div>
     </div>
+  </div-->
+
+<div class="alert alert-danger alert-dismissible" role="alert" style="margin:10px 20px 0px 20px;text-align:center;">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <strong>Ready to Grow!</strong> Join us at <a href="#" class="alert-link">Bible Study,</a> <a href="#" class="alert-link">Leadership Development (training),</a> or both. <a href="#" class="alert-link">Click here for info...</a>
+</div>
+
+<div class="container-fluid">
+  <div class="row" style="margin-bottom:0px">
+    <div class="col-xs-12 col-sm-12 col-md-12" style="background-color:#fff;padding-top:0px;padding-bottom:0px;border:0px">
+      <h3 style="padding:0px 20px">We have many global, dynamic pieces coming together 
+      in reaching our vision while staying true to our purpose. We are - 
+      <span style="font-weight:bold">a biblical leadership development ministry.</span></h3>
+<!--TODO: Use Button Groups and add each text into a Button which points to a section with further description-->
+      <ul style="list-style:none">
+        <li><h3 style="margin-top:10px;margin-bottom:5px;"><span style="font-style:italic">Biblical</span> - our base, foundation</h3></li>
+        <li><h3 style="margin-top:10px;margin-bottom:5px;"><span style="font-style:italic">Leadership</span> - our purpose &amp; destination</h3></li>
+        <li><h3 style="margin-top:10px;margin-bottom:5px;"><span style="font-style:italic">Development</span> - our direction &amp; intention</h3></li>
+        <li><h3 style="margin-top:10px;margin-bottom:5px;"><span style="font-style:italic">Ministry</span> - our relationship to everyone, everywhere</h3></li>
+      </ul>
+    </div>
   </div>
+</div>
+
+<!--TODO: Maybe we put this image in a Jumbotron and add buttons related to our 4 principles that people can click on to learn more? -->
+<div id="image1">
+  <img src="<?php echo base_url().'img/impact-day/20160326_AsaTeaches.jpg';?>" style="margin: auto; border-radius:50px">
+    <!--h2 id="title1"><span>Pray &amp; practice four basic principles with respect to your God-given purpose: </span></h2-->
+  </img>
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-12 col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img src="..." alt="...">
+        <div class="caption">
+          <h3>Thumbnail label</h3>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a>&nbsp;<a href="#" class="btn btn-default" role="button">Button</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img src="..." alt="...">
+        <div class="caption">
+          <h3>Thumbnail label 2</h3>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a>&nbsp;<a href="#" class="btn btn-default" role="button">Button</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img src="..." alt="...">
+        <div class="caption">
+          <h3>Thumbnail label 3</h3>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a>&nbsp;<a href="#" class="btn btn-default" role="button">Button</a></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12 col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img src="..." alt="...">
+        <div class="caption">
+          <h3>Thumbnail label 4</h3>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Button</a>&nbsp;<a href="#" class="btn btn-default" role="button">Button</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Text over Image: Works, but Image doesn't resize based on browser size-->
+<div id="" class="container-fluid text-center" style="padding:0px;position:relative;">
+  <img src="<?php echo base_url().'img/20151220_DeepStudy.jpg';?>" class="img-responsive align-center grayscale">
+    <div class="textbox" style="width:100%;position:absolute;z-index:1;top:40%;left:0%;border:2px solid green">
+      <h2 style="background-color:transparent;color:white;border:2px solid black">We love the Word</h2>
+      <h3 style="background-color:red;color:black;border:2px solid black">In the chapter of Matthew 6, 
+        there is a verse (33) which Jesus brings great attention to regarding how to live a life of *truth*.</h3>
+      <a class="btn btn-default btn-lg" href="#" role="button"><p style="font-weight:bold;font-size:24px">Seek more</p></a>
+    </div>
+  </img>
+</div>
+
+      <div class="row" style="padding:0px;text-align:center">
+        <div class="col-xs-6" style="padding:0px;">
+      </div>
+    </div>
 
 
-
-
+  <?php /*Section: Bible Study - Billboard*/ ?>
+  <div id="" class="jumbotron">
+    <div id="" class="container-fluid text-center" style="background-color: yellow; padding: 0px;">
+      <div class="row">
+        <div class="col-xs-12" style="">
+          <h1>Bible Study</h1>
+          <p>Learn the Truth with us...</p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+          <!--a target="_blank" href="https://www.ted.com/talks/rick_warren_on_a_life_of_purpose"></a-->
+            <img src="<?php echo base_url().'img/20151220_DeepStudy2.jpg';?>" class="img-responsive grayscale">
+          </img><!--wid:625, height:250, max-width="625" height="auto"-->
+        </div>
+      </div>
+    </div>
+  </div>
 
   <?php /*Section: Purposeful Thought - Splash*/ ?>
   <div id="purposeful-thought" class="container-fluid text-center" style="background-color:black">

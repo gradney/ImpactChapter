@@ -53,6 +53,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'page/view';
 
 # Specific routes.
+$route['app'] = 'app'; // temp for learning JS app dev
 $route['form'] = 'form';
 $route['form/(:any)'] = 'form/process/$1';
 $route['news'] = 'news';	// index.php/news
