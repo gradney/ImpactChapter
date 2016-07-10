@@ -47,16 +47,30 @@
 <div class="container-fluid">
   <div class="row" style="margin-bottom:0px">
     <div class="col-xs-12 col-sm-12 col-md-12" style="background-color:#fff;padding-top:0px;padding-bottom:0px;border:0px">
-      <h3 style="padding:0px 20px">We have many global, dynamic pieces coming together 
+      <h3 style="padding:0px 20px;text-align:justify">We have many global, dynamic pieces coming together 
       in reaching our vision while staying true to our purpose. We are - 
       <span style="font-weight:bold">a biblical leadership development ministry.</span></h3>
 <!--TODO: Use Button Groups and add each text into a Button which points to a section with further description-->
-      <ul style="list-style:none">
+<div class="btn-group btn-group-justified" role="group" aria-label="...">
+  <div class="btn-group" role="group">
+    <a href="https://www.biblegateway.com" target="_blank" class="btn btn-default btn-lg" role="button" style="background-color:#B22222;color:white">BIBLICAL<br /><small>- foundation -</small></a>
+  </div>
+  <div class="btn-group" role="group">
+    <a href="#" target="_blank" class="btn btn-default btn-lg" style="background-color:#8B0000;color:white">LEADERSHIP<br /><small>- purpose -</small></a>
+  </div>
+  <div class="btn-group" role="group">
+    <a href="#" target="_blank" class="btn btn-default btn-lg" style="background-color:#B22222;color:white">DEVELOPMENT<br /><small>- direction -</small></a>
+  </div>
+  <div class="btn-group" role="group">
+    <a href="#" target="_blank" class="btn btn-default btn-lg" style="background-color:#8B0000;color:white">MINISTRY<br /><small>- relationship -</small></a>
+  </div>
+</div>
+      <!--ul style="list-style:none">
         <li><h3 style="margin-top:10px;margin-bottom:5px;"><span style="font-style:italic">Biblical</span> - our base, foundation</h3></li>
         <li><h3 style="margin-top:10px;margin-bottom:5px;"><span style="font-style:italic">Leadership</span> - our purpose &amp; destination</h3></li>
         <li><h3 style="margin-top:10px;margin-bottom:5px;"><span style="font-style:italic">Development</span> - our direction &amp; intention</h3></li>
         <li><h3 style="margin-top:10px;margin-bottom:5px;"><span style="font-style:italic">Ministry</span> - our relationship to everyone, everywhere</h3></li>
-      </ul>
+      </ul-->
     </div>
   </div>
 </div>
@@ -68,15 +82,24 @@
   </img>
 </div>
 
+<div class="container">
+  <h1>
+    <blockquote cite="#">
+      "Truth is like a baobab tree; one person's arms cannot embrace it."<br />~ Ghanaian proverb
+    </blockquote>
+  </h1>
+  <?php /** Waiting to get the Twi version **/ ?>
+</div>
+
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-12 col-sm-6 col-md-3">
       <div class="thumbnail">
         <img src="..." alt="...">
         <div class="caption">
-          <h3>Thumbnail label</h3>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a href="#" class="btn btn-primary" role="button">Button</a>&nbsp;<a href="#" class="btn btn-default" role="button">Button</a></p>
+          <h3>Church</h3>
+          <p>A church home is critical in growing a student's walk... Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p><a href="#" class="btn btn-primary" role="button">See List</a>&nbsp;<a href="#" class="btn btn-default" role="button">Partner</a></p>
         </div>
       </div>
     </div>
@@ -84,9 +107,9 @@
       <div class="thumbnail">
         <img src="..." alt="...">
         <div class="caption">
-          <h3>Thumbnail label 2</h3>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a href="#" class="btn btn-primary" role="button">Button</a>&nbsp;<a href="#" class="btn btn-default" role="button">Button</a></p>
+          <h3>Family</h3>
+          <p>The family of a student is vital... Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p><a href="#" class="btn btn-primary" role="button">See Events</a>&nbsp;<a href="#" class="btn btn-default" role="button">Connect</a></p>
         </div>
       </div>
     </div>
@@ -94,9 +117,9 @@
       <div class="thumbnail">
         <img src="..." alt="...">
         <div class="caption">
-          <h3>Thumbnail label 3</h3>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a href="#" class="btn btn-primary" role="button">Button</a>&nbsp;<a href="#" class="btn btn-default" role="button">Button</a></p>
+          <h3>Network</h3>
+          <p>Professionals are tremendous in influencing the future of our bright students... Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p><a href="#" class="btn btn-primary" role="button">See Investors</a>&nbsp;<a href="#" class="btn btn-default" role="button">Network</a></p>
         </div>
       </div>
     </div>
@@ -104,8 +127,8 @@
       <div class="thumbnail">
         <img src="..." alt="...">
         <div class="caption">
-          <h3>Thumbnail label 4</h3>
-          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <h3>Community</h3>
+          <p>Friends, clubs, etc. play a major role if not the biggest role in many of our students' lives... Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
           <p><a href="#" class="btn btn-primary" role="button">Button</a>&nbsp;<a href="#" class="btn btn-default" role="button">Button</a></p>
         </div>
       </div>
