@@ -50,27 +50,36 @@
       <h3 style="padding:0px 20px;text-align:justify">We have many global, dynamic pieces coming together 
       in reaching our vision while staying true to our purpose. We are - 
       <span style="font-weight:bold">a biblical leadership development ministry.</span></h3>
-<!--TODO: Use Button Groups and add each text into a Button which points to a section with further description-->
-<div class="btn-group btn-group-justified" role="group" aria-label="...">
-  <div class="btn-group" role="group">
-    <a href="https://www.biblegateway.com" target="_blank" class="btn btn-default btn-lg" role="button" style="background-color:#B22222;color:white">BIBLICAL<br /><small>- foundation -</small></a>
+    </div>
   </div>
-  <div class="btn-group" role="group">
-    <a href="#" target="_blank" class="btn btn-default btn-lg" style="background-color:#8B0000;color:white">LEADERSHIP<br /><small>- purpose -</small></a>
-  </div>
-  <div class="btn-group" role="group">
-    <a href="#" target="_blank" class="btn btn-default btn-lg" style="background-color:#B22222;color:white">DEVELOPMENT<br /><small>- direction -</small></a>
-  </div>
-  <div class="btn-group" role="group">
-    <a href="#" target="_blank" class="btn btn-default btn-lg" style="background-color:#8B0000;color:white">MINISTRY<br /><small>- relationship -</small></a>
-  </div>
-</div>
-      <!--ul style="list-style:none">
-        <li><h3 style="margin-top:10px;margin-bottom:5px;"><span style="font-style:italic">Biblical</span> - our base, foundation</h3></li>
-        <li><h3 style="margin-top:10px;margin-bottom:5px;"><span style="font-style:italic">Leadership</span> - our purpose &amp; destination</h3></li>
-        <li><h3 style="margin-top:10px;margin-bottom:5px;"><span style="font-style:italic">Development</span> - our direction &amp; intention</h3></li>
-        <li><h3 style="margin-top:10px;margin-bottom:5px;"><span style="font-style:italic">Ministry</span> - our relationship to everyone, everywhere</h3></li>
-      </ul-->
+  <div class="row" style="margin-left:10px;margin-right:10px">
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" style="background-color:#fff;padding:1px;border:0px">
+      <a href="#" target="_blank">
+        <button type="button" class="btn btn-secondary" style="width:100%;background-color:#B22222;color:white">
+          <h4 style="margin:0px">BIBLICAL<br/><small style="color:white">- foundation -</small></h4>
+        </button>
+      </a>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" style="background-color:#fff;padding:1px;border:0px">
+      <a href="#" target="_blank">
+        <button type="button" class="btn btn-secondary" style="width:100%;background-color:#8B0000;color:white">
+          <h4 style="margin:0px">LEADERSHIP<br/><small style="color:white">- purpose -</small></h4>
+        </button>
+      </a>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" style="background-color:#fff;padding:1px;border:0px">
+      <a href="#" target="_blank">
+        <button type="button" class="btn btn-secondary" style="width:100%;background-color:#B22222;color:white">
+          <h4 style="margin:0px">DEVELOPMENT<br/><small style="color:white">- direction -</small></h4>
+        </button>
+      </a>
+    </div>
+    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" style="background-color:#fff;padding:1px;border:0px">
+      <a href="#" target="_blank">
+        <button type="button" class="btn btn-secondary" style="width:100%;background-color:#8B0000;color:white">
+          <h4 style="margin:0px">MINISTRY<br/><small style="color:white">- relationship -</small></h4>
+        </button>
+      </a>
     </div>
   </div>
 </div>
@@ -82,20 +91,20 @@
   </img>
 </div>
 
-<div class="container">
+<div class="container" style="max-width:800px">
   <h1>
     <blockquote cite="#">
-      "Truth is like a baobab tree; one person's arms cannot embrace it."<br />~ Ghanaian proverb
+      "Truth is like a baobab tree; one person's arms cannot embrace it." ~ Ghanaian proverb
     </blockquote>
   </h1>
-  <?php /** Waiting to get the Twi version **/ ?>
+  <?php /** Waiting to get the Twi version from Kobby **/ ?>
 </div>
 
 <div class="container-fluid">
   <div class="row">
     <div class="col-sm-12 col-sm-6 col-md-3">
       <div class="thumbnail">
-        <img src="..." alt="...">
+        <img src="..." alt="..."><!-- use picture of Chapel -->
         <div class="caption">
           <h3>Church</h3>
           <p>A church home is critical in growing a student's walk... Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -107,7 +116,7 @@
       <div class="thumbnail">
         <img src="..." alt="...">
         <div class="caption">
-          <h3>Family</h3>
+          <h3>Family</h3><!-- photo of Jimmy McGee and family (i.e. flyer for Impact Fall Retreat -->
           <p>The family of a student is vital... Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
           <p><a href="#" class="btn btn-primary" role="button">See Events</a>&nbsp;<a href="#" class="btn btn-default" role="button">Connect</a></p>
         </div>
@@ -117,7 +126,7 @@
       <div class="thumbnail">
         <img src="..." alt="...">
         <div class="caption">
-          <h3>Network</h3>
+          <h3>Network</h3><!-- professional photo of alumni networking (maybe an MLT?) -->
           <p>Professionals are tremendous in influencing the future of our bright students... Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
           <p><a href="#" class="btn btn-primary" role="button">See Investors</a>&nbsp;<a href="#" class="btn btn-default" role="button">Network</a></p>
         </div>
@@ -127,7 +136,7 @@
       <div class="thumbnail">
         <img src="..." alt="...">
         <div class="caption">
-          <h3>Community</h3>
+          <h3>Community</h3><!-- photo of our students having fun! -->
           <p>Friends, clubs, etc. play a major role if not the biggest role in many of our students' lives... Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
           <p><a href="#" class="btn btn-primary" role="button">Button</a>&nbsp;<a href="#" class="btn btn-default" role="button">Button</a></p>
         </div>

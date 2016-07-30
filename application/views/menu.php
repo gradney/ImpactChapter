@@ -20,10 +20,13 @@
           <a href="#" data-toggle="modal" data-target="#modal-in-progress"><i class="fa fa-home"></i></a>
         </li>
         <li class="menu-break" style="font-size:35px"><span style="font-family:'Courier New', monospace">|<span></li>
+      <li class="divider"></li>
+
         <li id="mnu-about" class="mnu-option">
           <a href="#" data-toggle="modal" data-target="#modal-in-progress"><i class="fa fa-users"></i>&nbsp;Meet Us</a>
         </li>
         <li class="menu-break" style="font-size:35px"><span style="font-family:'Courier New', monospace">|<span></li>
+      <li class="nav-divider"></li>
         <li id="mnu-connect" class="mnu-option">
           <a href="#" data-toggle="modal" data-target="#modal-in-progress"><i class="fa fa-trophy"></i>&nbsp;Team Up</a>
         </li>
