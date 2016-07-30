@@ -53,28 +53,28 @@
     </div>
   </div>
   <div class="row" style="margin-left:10px;margin-right:10px">
-    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" style="background-color:#fff;padding:1px;border:0px">
+    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="background-color:#fff;padding:1px;border:0px">
       <a href="#" target="_blank">
         <button type="button" class="btn btn-secondary" style="width:100%;background-color:#B22222;color:white">
           <h4 style="margin:0px">BIBLICAL<br/><small style="color:white">- foundation -</small></h4>
         </button>
       </a>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" style="background-color:#fff;padding:1px;border:0px">
+    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="background-color:#fff;padding:1px;border:0px">
       <a href="#" target="_blank">
         <button type="button" class="btn btn-secondary" style="width:100%;background-color:#8B0000;color:white">
           <h4 style="margin:0px">LEADERSHIP<br/><small style="color:white">- purpose -</small></h4>
         </button>
       </a>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" style="background-color:#fff;padding:1px;border:0px">
+    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="background-color:#fff;padding:1px;border:0px">
       <a href="#" target="_blank">
         <button type="button" class="btn btn-secondary" style="width:100%;background-color:#B22222;color:white">
           <h4 style="margin:0px">DEVELOPMENT<br/><small style="color:white">- direction -</small></h4>
         </button>
       </a>
     </div>
-    <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" style="background-color:#fff;padding:1px;border:0px">
+    <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="background-color:#fff;padding:1px;border:0px">
       <a href="#" target="_blank">
         <button type="button" class="btn btn-secondary" style="width:100%;background-color:#8B0000;color:white">
           <h4 style="margin:0px">MINISTRY<br/><small style="color:white">- relationship -</small></h4>
