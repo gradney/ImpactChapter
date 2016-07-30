@@ -54,28 +54,28 @@
   </div>
   <div class="row" style="margin-left:10px;margin-right:10px">
     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="background-color:#fff;padding:1px;border:0px">
-      <a href="#" target="_blank">
+      <a href="https://www.biblegateway.com" target="_blank">
         <button type="button" class="btn btn-secondary" style="width:100%;background-color:#B22222;color:white">
           <h4 style="margin:0px">BIBLICAL<br/><small style="color:white">- foundation -</small></h4>
         </button>
       </a>
     </div>
     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="background-color:#fff;padding:1px;border:0px">
-      <a href="#" target="_blank">
+      <a href="https://www.aspeninstitute.org/programs/aspen-global-leadership-network/" target="_blank">
         <button type="button" class="btn btn-secondary" style="width:100%;background-color:#8B0000;color:white">
           <h4 style="margin:0px">LEADERSHIP<br/><small style="color:white">- purpose -</small></h4>
         </button>
       </a>
     </div>
     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="background-color:#fff;padding:1px;border:0px">
-      <a href="#" target="_blank">
+      <a href="http://www.forbes.com/sites/drewhansen/2011/12/02/5-keys-developing-talent-in-your-organization/#648f295c4788" target="_blank">
         <button type="button" class="btn btn-secondary" style="width:100%;background-color:#B22222;color:white">
           <h4 style="margin:0px">DEVELOPMENT<br/><small style="color:white">- direction -</small></h4>
         </button>
       </a>
     </div>
     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="background-color:#fff;padding:1px;border:0px">
-      <a href="#" target="_blank">
+      <a href="https://www.youtube.com/watch?v=IijKBFmAZes" target="_blank">
         <button type="button" class="btn btn-secondary" style="width:100%;background-color:#8B0000;color:white">
           <h4 style="margin:0px">MINISTRY<br/><small style="color:white">- relationship -</small></h4>
         </button>
@@ -84,8 +84,7 @@
   </div>
 </div>
 
-<!--TODO: Maybe we put this image in a Jumbotron and add buttons related to our 4 principles that people can click on to learn more? -->
-<div id="image1">
+<div id="img-AsaTeaches">
   <img src="<?php echo base_url().'img/impact-day/20160326_AsaTeaches.jpg';?>" style="margin: auto; border-radius:50px">
     <!--h2 id="title1"><span>Pray &amp; practice four basic principles with respect to your God-given purpose: </span></h2-->
   </img>
@@ -104,7 +103,7 @@
   <div class="row">
     <div class="col-sm-12 col-sm-6 col-md-3">
       <div class="thumbnail">
-        <img src="..." alt="..."><!-- use picture of Chapel -->
+        <img src="<?php echo base_url().'img/pic/mural_hope.jpg';?>" alt="A home anchored in hope"><!-- use picture of Chapel -->
         <div class="caption">
           <h3>Church</h3>
           <p>A church home is critical in growing a student's walk... Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
@@ -114,11 +113,11 @@
     </div>
     <div class="col-sm-12 col-sm-6 col-md-3">
       <div class="thumbnail">
-        <img src="..." alt="...">
+        <img src="<?php echo base_url().'img/pic/mcgee_family.jpg';?>" alt="a family anchored in love">
         <div class="caption">
           <h3>Family</h3><!-- photo of Jimmy McGee and family (i.e. flyer for Impact Fall Retreat -->
           <p>The family of a student is vital... Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a href="#" class="btn btn-primary" role="button">See Events</a>&nbsp;<a href="#" class="btn btn-default" role="button">Connect</a></p>
+          <p><a href="#" class="btn btn-primary" role="button">Learn More</a>&nbsp;<a href="#" class="btn btn-default" role="button">Sponsor</a></p>
         </div>
       </div>
     </div>
