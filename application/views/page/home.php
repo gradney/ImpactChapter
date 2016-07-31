@@ -236,9 +236,9 @@
       <div class="col-xs-12">
         <div id="caption-for-slides" style="margin: 0 auto;">
           <h1 class="text-center">This is where the carousel image captions will display.</h1>
-        </div><!--caption-->
-      </div><!--col-->
-    </div><!--row-->
+        </div>
+      </div>
+    </div>
     <div class="row">
       <div class="col-xs-12">
           <!-- Carousel -->
