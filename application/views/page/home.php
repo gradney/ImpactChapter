@@ -47,8 +47,8 @@
 <div class="container-fluid">
   <div class="row" style="margin-bottom:0px">
     <div class="col-xs-12 col-sm-12 col-md-12" style="background-color:#fff;padding-top:0px;padding-bottom:0px;border:0px">
-      <h3 style="padding:0px 20px;text-align:justify">We have many global, dynamic pieces coming together 
-      in reaching our vision while staying true to our purpose. We are - 
+      <h3 style="padding:0px 20px;text-align:justify"><span style="font-style: italic;">(Danelle says to replace this with our mission) We have many global, dynamic pieces coming together 
+      in reaching our vision while staying true to our purpose.</span> We are - 
       <span style="font-weight:bold">a biblical leadership development ministry.</span></h3>
     </div>
   </div>
@@ -106,8 +106,8 @@
         <img src="<?php echo base_url().'img/pic/mural_hope.jpg';?>" alt="A home anchored in hope"><!-- use picture of Chapel -->
         <div class="caption">
           <h3>Church</h3>
-          <p>A church home is critical in growing a student's walk... Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a href="#" class="btn btn-primary" role="button">See List</a>&nbsp;<a href="#" class="btn btn-default" role="button">Partner</a></p>
+          <p>A <a href="http://www.desiringgod.org/articles/three-reasons-to-attend-corporate-worship" target="_blank">church</a> home is critical in growing a student's walk in the Spirit of God. It is the place for corporate worship and reminder that not only "I" need to be saved, but also "we" need to be saved. It is a practice of spiritual discipline acknowledging that God is in full control including our time.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Find a Church</a>&nbsp;<a href="#" class="btn btn-default" role="button">Partner</a></p>
         </div>
       </div>
     </div>
@@ -115,29 +115,34 @@
       <div class="thumbnail">
         <img src="<?php echo base_url().'img/pic/mcgee_family.jpg';?>" alt="a family anchored in love">
         <div class="caption">
-          <h3>Family</h3><!-- photo of Jimmy McGee and family (i.e. flyer for Impact Fall Retreat -->
-          <p>The family of a student is vital... Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a href="#" class="btn btn-primary" role="button">Learn More</a>&nbsp;<a href="#" class="btn btn-default" role="button">Sponsor</a></p>
+          <h3>Family</h3>
+          <!-- http://www.chicagotribune.com/news/opinion/chapman/ct-whites-blacks-families-moynihan-report-perspec-0226-jm-20150225-column.html -->
+          <!--https://www.brookings.edu/articles/family-structure-the-growing-importance-of-class/-->
+          <!--http://www.city-journal.org/html/black-family-40-years-lies-12872.html-->
+          <!--http://theblackfamilyinitiative.org/single-parenting-and-childrens-academic-achievement-->
+          <!--http://www.nytimes.com/2002/07/29/us/side-effect-of-welfare-law-the-no-parent-family.html?_r=0-->
+          <p><a href="http://www.nydailynews.com/opinion/juan-williams-face-racism-black-families-matter-article-1.2285951" target="_blank">NY Daily News</a> has cited in July 2015, "As of 2013, 55% [of AA kids] grew up without two parents." <a href="http://steinhardt.nyu.edu/faculty/Kathleen_Ziol-Guest">Ziol-Guest</a> has stated, "<a href="https://www.insidehighered.com/news/2015/02/25/report-marks-growing-educational-disadvantage-children-single-parent-families">the negative relationship</a> between living with a single parent and educational attainment has grown with each generation." Please pray for family restoration of our students.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Be a Sponsor</a>&nbsp;<a href="#" class="btn btn-default" role="button">Learn More</a></p>
         </div>
       </div>
     </div>
     <div class="col-sm-12 col-sm-6 col-md-3">
       <div class="thumbnail">
-        <img src="..." alt="...">
+        <img src="<?php echo base_url().'img/pic/networking6.jpg';?>" alt="networking for success">
         <div class="caption">
-          <h3>Network</h3><!-- professional photo of alumni networking (maybe an MLT?) -->
-          <p>Professionals are tremendous in influencing the future of our bright students... Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a href="#" class="btn btn-primary" role="button">See Investors</a>&nbsp;<a href="#" class="btn btn-default" role="button">Network</a></p>
+          <h3>Network</h3>
+          <p>Our professionals help students understand that college is the launchpad for their careers. We know "it's not just what you know, but who you know", but without proper mentorship a student will struggle in his/her career especially with the increase in global competition.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Find a Mentor</a>&nbsp;<a href="#" class="btn btn-default" role="button">Network List</a></p>
         </div>
       </div>
     </div>
     <div class="col-sm-12 col-sm-6 col-md-3">
       <div class="thumbnail">
-        <img src="..." alt="...">
-        <div class="caption">
-          <h3>Community</h3><!-- photo of our students having fun! -->
-          <p>Friends, clubs, etc. play a major role if not the biggest role in many of our students' lives... Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-          <p><a href="#" class="btn btn-primary" role="button">Button</a>&nbsp;<a href="#" class="btn btn-default" role="button">Button</a></p>
+        <img src="<?php echo base_url().'img/pic/fun_comm_2016.jpg';?>" alt="community of fun friends">
+        <div class="caption" style="padding-top:5px">
+          <h3>Community</h3>
+          <p><a href="http://friendship.about.com/od/Types_of_Friendships/fl/Why-Friendship-Is-Important.htm" target="_blank">Friends</a> play a major role if not the biggest role in many of our students' lives. They are the ones who have the greatest influence when a person begins life on his/her own. But, making friends can be challenging. We help students find the right friends and the best friend <a href="https://www.biblegateway.com/passage/?search=John+15%3A13&version=NIV" target="_blank">Jesus</a> for their life.</p>
+          <p><a href="#" class="btn btn-primary" role="button">Connect</a>&nbsp;<a href="#" class="btn btn-default" role="button">Learn More</a></p>
         </div>
       </div>
     </div>
@@ -147,11 +152,10 @@
 <!--Text over Image: Works, but Image doesn't resize based on browser size-->
 <div id="" class="container-fluid text-center" style="padding:0px;position:relative;">
   <img src="<?php echo base_url().'img/20151220_DeepStudy.jpg';?>" class="img-responsive align-center grayscale">
-    <div class="textbox" style="width:100%;position:absolute;z-index:1;top:40%;left:0%;border:2px solid green">
-      <h2 style="background-color:transparent;color:white;border:2px solid black">We love the Word</h2>
-      <h3 style="background-color:red;color:black;border:2px solid black">In the chapter of Matthew 6, 
-        there is a verse (33) which Jesus brings great attention to regarding how to live a life of *truth*.</h3>
-      <a class="btn btn-default btn-lg" href="#" role="button"><p style="font-weight:bold;font-size:24px">Seek more</p></a>
+    <div class="textbox" style="width:100%;position:absolute;z-index:1;top:40%;left:0%;border:0px solid green">
+      <h1 style="background-color:transparent;color:#f5f5f5;border:0px solid black;font-weight:bold">We Love the Truth</h1>
+      <h3 style="background-color:#f5f5f5;color:black;border:0px solid black;padding:5px"><a href="https://www.biblegateway.com/passage/?search=Matthew+6%3A33&version=NIV" target="_blank"><span style="font-style:italic;">"But seek first his kingdom and his righteousness, and all these things will be given to you as well."</span><br/> - Matthew 6:33</a><br/><span style="font-size:20px">Through our Bible studies, we focus on growing our personal relationship with God. In addition, we continue digging deeper by exploring practical applications in our lessons and opportunities of Leadership Development.</span></h3>
+      <a class="btn btn-default btn-lg" href="#" role="button" style="background-color:#f5f5f5;border:4px solid #777"><p style="font-weight:bold;font-size:22px;font-style:italic;margin:0px">Let's Grow!</p></a>
     </div>
   </img>
 </div>
