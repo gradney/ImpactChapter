@@ -1,3 +1,11 @@
+
+<div class="alert alert-danger alert-dismissible" role="alert" style="margin:10px 20px 0px 20px;text-align:center;">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+  <?php /*TODO: Add anchors to the Bible Studies page pointing to the Biblical studies, Leadership studies, or page top.*/?>
+  <strong>Ready to Grow!</strong> Join us at <a href="studies" class="alert-link">Bible Study,</a> <a href="studies" class="alert-link">Leadership Development (training),</a> or both. <a href="studies" class="alert-link">Click here for info...</a>
+</div>
+
+
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -17,7 +25,7 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav" style="padding:15px;position:absolute;top:45%;left:20%;font-size:2em;">
         <li id="mnu-chapter" class="mnu-option">
-          <a href="#" data-toggle="modal" data-target="#modal-in-progress"><i class="fa fa-home"></i></a>
+          <a href="/impact"><i class="fa fa-home"></i></a>
         </li>
         <li class="menu-break" style="font-size:35px"><span style="font-family:'Courier New', monospace">|<span></li>
       <li class="divider"></li>
@@ -47,7 +55,7 @@
 </nav>
 
   <?php /*separater between menu and page.*/ ?>
-  <div id="navbar-border-bottom" class="container-fluid"></div>
+  <div id="navbar-border-bottom" class="container-fluid" style="margin-bottom:10px;"></div>
 
   <!-- Modal-411 -->
   <div class="modal fade" id="modal-411" tabindex="-1" role="dialog" aria-labelledby="modal-411-label">

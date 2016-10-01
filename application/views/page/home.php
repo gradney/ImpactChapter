@@ -10,13 +10,6 @@
   * Verses:
   * Food - John 6:25-29
   * Love - John 15:9-17
-  <?php echo 'style="background-image:url(\''.base_url().'./img/impact-day/20160326_AsaTeaches.jpg\')"';?>
-
-              <!--img id="teaching" class="img-responsive" src="<?php echo base_url().'img/impact-day/20160326_AsaTeaches.jpg';?>" style="margin: auto; border-radius:50px"><img-->
-
-
-          <img id="teaching" class="img-responsive" src="<?php echo base_url().'img/impact-day/20160326_AsaTeaches.jpg';?>" style="margin: auto; border-radius:50px">
-
   */
 ?>
 
@@ -39,19 +32,8 @@
     </div>
   </div-->
 
-<div class="alert alert-danger alert-dismissible" role="alert" style="margin:10px 20px 0px 20px;text-align:center;">
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  <strong>Ready to Grow!</strong> Join us at <a href="#" class="alert-link">Bible Study,</a> <a href="#" class="alert-link">Leadership Development (training),</a> or both. <a href="#" class="alert-link">Click here for info...</a>
-</div>
 
 <div class="container-fluid">
-  <div class="row" style="margin-bottom:0px">
-    <div class="col-xs-12 col-sm-12 col-md-12" style="background-color:#fff;padding-top:0px;padding-bottom:0px;border:0px">
-      <h3 style="padding:0px 20px;text-align:justify"><span style="font-style: italic;">(Danelle says to replace this with our mission) We have many global, dynamic pieces coming together 
-      in reaching our vision while staying true to our purpose.</span> We are - 
-      <span style="font-weight:bold">a biblical leadership development ministry.</span></h3>
-    </div>
-  </div>
   <div class="row" style="margin-left:10px;margin-right:10px">
     <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3" style="background-color:#fff;padding:1px;border:0px">
       <a href="https://www.biblegateway.com" target="_blank">
@@ -84,6 +66,13 @@
   </div>
 </div>
 
+  <div class="row" style="margin-bottom:0px">
+    <div class="col-xs-12 col-sm-12 col-md-12" style="background-color:#fff;padding-top:0px;padding-bottom:0px;border:0px">
+      <h3 style="padding:0px 20px;text-align:center;">- Become a leader so you can focus on bigger things. Like. Learn. Live. Love. Laugh! -</h3>
+    </div>
+  </div>
+
+
 <div id="img-AsaTeaches">
   <img src="<?php echo base_url().'img/impact-day/20160326_AsaTeaches.jpg';?>" style="margin: auto; border-radius:50px">
     <!--h2 id="title1"><span>Pray &amp; practice four basic principles with respect to your God-given purpose: </span></h2-->
@@ -103,7 +92,7 @@
   <div class="row">
     <div class="col-sm-12 col-sm-6 col-md-3">
       <div class="thumbnail">
-        <img src="<?php echo base_url().'img/pic/mural_hope.jpg';?>" alt="A home anchored in hope"><!-- use picture of Chapel -->
+        <img src="<?php echo base_url().'img/pic/mural_hope.jpg';?>" alt="A home anchored in hope">
         <div class="caption">
           <h3>Church</h3>
           <p>A <a href="http://www.desiringgod.org/articles/three-reasons-to-attend-corporate-worship" target="_blank">church</a> home is critical in growing a student's walk in the Spirit of God. It is the place for corporate worship and reminder that not only "I" need to be saved, but also "we" need to be saved. It is a practice of spiritual discipline acknowledging that God is in full control including our time.</p>
@@ -154,8 +143,8 @@
   <img src="<?php echo base_url().'img/20151220_DeepStudy.jpg';?>" class="img-responsive align-center grayscale">
     <div class="textbox" style="width:100%;position:absolute;z-index:1;top:40%;left:0%;border:0px solid green">
       <h1 style="background-color:transparent;color:#f5f5f5;border:0px solid black;font-weight:bold">We Love the Truth</h1>
-      <h3 style="background-color:#f5f5f5;color:black;border:0px solid black;padding:5px"><a href="https://www.biblegateway.com/passage/?search=Matthew+6%3A33&version=NIV" target="_blank"><span style="font-style:italic;">"But seek first his kingdom and his righteousness, and all these things will be given to you as well."</span><br/> - Matthew 6:33</a><br/><span style="font-size:20px">Through our Bible studies, we focus on growing our personal relationship with God. In addition, we continue digging deeper by exploring practical applications in our lessons and opportunities of Leadership Development.</span></h3>
-      <a class="btn btn-default btn-lg" href="#" role="button" style="background-color:#f5f5f5;border:4px solid #777"><p style="font-weight:bold;font-size:22px;font-style:italic;margin:0px">Let's Grow!</p></a>
+      <h3 style="background-color:#f5f5f5;color:black;border:0px solid black;padding:5px"><a href="https://www.biblegateway.com/passage/?search=Matthew+6%3A33&version=NIV" target="_blank"><span style="font-style:italic;">"But seek first his kingdom and his righteousness, and all these things will be given to you as well."</span><br/> - Matthew 6:33</a><br/><span style="font-size:20px">Through our Bible studies, we focus on growing our personal relationship with God. In addition, we continue digging deeper by exploring practical applications in our lessons and opportunities of leadership development.</span></h3>
+      <a id="btn-lets-grow" class="btn btn-default btn-lg" href="#" role="button" style="margin-bottom:20px;"><p style="font-weight:bold;font-size:22px;font-style:italic;margin:0px">Let's Grow!</p></a>
     </div>
   </img>
 </div>
@@ -166,7 +155,7 @@
     </div>
 
 
-  <?php /*Section: Bible Study - Billboard*/ ?>
+  <?php /*Section: Bible Study - Billboard
   <div id="" class="jumbotron">
     <div id="" class="container-fluid text-center" style="background-color: yellow; padding: 0px;">
       <div class="row">
@@ -181,8 +170,8 @@
       </div>
     </div>
   </div>
-
-  <?php /*Section: Purposeful Thought - Splash*/ ?>
+*/ ?>
+  <?php /*Section: Purposeful Thought - Splash
   <div id="purposeful-thought" class="container-fluid text-center" style="background-color:black">
     <div class="row top-buffer-20">
       <div class="col-xs-12" style="padding-left: 50px">
@@ -194,8 +183,8 @@
       </div>
     </div>
   </div>
-
-  <?php /*Section: Howard University - Purpose*/ ?>    
+*/ ?>
+  <?php /*Section: Howard University - Purpose    
   <div id="purpose-ministry" class="container">
     <div class="row top-buffer-20" style="padding-bottom: 30px">
       <div class="col-xs-12">
@@ -208,8 +197,8 @@
       </div>
     </div>
   </div>
-
-  <?php /*Section: Howard University - Vision*/ ?>
+*/ ?>
+  <?php /*Section: Howard University - Vision
   <div id="vision" class="container-fluid">
     <div class="row">
       <div class="col-xs-12">
@@ -233,8 +222,8 @@
       </div>
     </div>
   </div>
-
-  <?php /*Section: Carousel of Advertisements*/ ?>
+*/ ?>
+  <?php /*Section: Carousel of Advertisements
   <div class="container-fluid">
     <div class="row">
       <div class="col-xs-12">
@@ -294,8 +283,8 @@
       </div><!--col-->
     </div><!--row-->
   </div><!--container-->
-
-  <?php /*Section: Howard University - Pride*/ ?>
+*/ ?>
+  <?php /*Section: Howard University - Pride
   <div class="container" align="center">
     <div class="row top-buffer-20">
       <div class="col-md-4">
@@ -377,9 +366,9 @@
       </div>
     </div><!--row-->
   </div><!--container-->
+*/ ?>
 
-
-  <?php /*Section: Howard University - Purpose*/ ?>
+  <?php /*Section: Howard University - Purpose
   <div id="purpose-uniqueness" class="container">
     <div class="row top-buffer-20">
       <div class="col-xs-12">
@@ -399,7 +388,7 @@
       </div>
     </div>
   </div>
-
+*/ ?>
   <?php /*Section: Howard University Pride*/ ?>
   <div class="container" align="center">
     <div class="row top-buffer-20">

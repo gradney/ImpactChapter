@@ -1,5 +1,5 @@
 
-  <!--/*Page Header*/-->
+  <!--/*Page Header*/
   <div class="container-fluid">
     <div id="studies-poster" class="jumbotron">
       <h1 id="studies-poster-title">
@@ -16,8 +16,14 @@
       </p>
     </div>
   </div>
-
+-->
   <!--/*Page Content*/-->
+  <div class="container-fluid">
+    <h1>Where we Study?</h1>
+    <p>Find us on <span style="font-weight:bold">Mondays</span> in the <span style="font-weight:bold">School of Business room 320</span> growing personally in our Bible studies at <span style="font-weight:bold">6pm</span> and developing professionally in our leadership development trainings at <span style="font-weight:bold">7pm</span>.
+    </p>
+  </div>
+
   <div class="container-fluid">
     <h1>Like an Archaelogist</h1>
     <p>
@@ -25,7 +31,7 @@
       We study the Bible with all intent to disect each message along with the overall message in understanding the truth that it holds. There is no doubt or question that the Gospel itself reveals so much of the way to live a prosperous life, from the cradle to the kingdom, by simply doing one thing - live like Jesus. Yet in order to live like Jesus, we must first understand who this person is. This is the core of our studies. We seek to understand who He is, how we can be like Him, who we are in Him, and showing others who He is. There is no better role model to model our role - in all that we do.
     </p>
     <p>
-      We welcome you to join us as we study together, learn how to study on our own, and learn how to help others study the recorded story of God (i.e. the Bible) and why this understanding is significant to living a quality life. In addition, become a subject matter expert with us. Here is our study outline for this semester (Spring 2016).
+      We welcome you to join us as we study together, learn how to study on our own, and learn how to help others study the recorded story of God (i.e. the Bible) and why this understanding is significant to living a quality life. In addition, become a subject matter expert with us. Here is our study outline for this school year.
     </p>
     <h1>Study Outline</h1>
     <div class="table-responsive">          
@@ -40,26 +46,51 @@
         <tbody>
           <tr>
             <td>1</td>
+            <td>August</td>
+            <td>Biblical Study Methods</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>September</td>
+            <td>Introducing God</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>October</td>
+            <td>Understanding Christianity</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>November</td>
+            <td>Being Christian</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>December</td>
+            <td>Celebration, Sing Carols &amp; Give</td>
+          </tr>
+          <tr>
+            <td>6</td>
             <td>January</td>
             <td>Strategic Planning &amp; Proper Preparation</td>
           </tr>
           <tr>
-            <td>2</td>
+            <td>7</td>
             <td>February</td>
             <td>Love (God's vs. the World's), Maximizing Spring Break</td>
           </tr>
           <tr>
-            <td>3</td>
+            <td>8</td>
             <td>March</td>
             <td>Financial Freedom</td>
           </tr>
           <tr>
-            <td>4</td>
+            <td>9</td>
             <td>April</td>
             <td>Styles of Communication, of Leadership</td>
           </tr>
           <tr>
-            <td>5</td>
+            <td>10</td>
             <td>May</td>
             <td>Celebration, Graduation &amp; Welcome to the Real-World</td>
           </tr>
