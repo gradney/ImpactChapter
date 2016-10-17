@@ -102,4 +102,8 @@ $(document).ready(function () {
 			}
 		}
 	});
+
+	// H3 Quote underneath Biblical Leadership Development Ministry on Home page.
+    var quote = "Become a leader so you can focus on bigger things. Like. Learn. Live. Love. Laugh!";
+	$('#likelearnlivelovequote').html( window.innerWidth > 999 ? "- "+quote+" -": quote );
 });

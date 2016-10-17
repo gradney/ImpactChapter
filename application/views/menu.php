@@ -30,9 +30,15 @@
         <li class="menu-break" style="font-size:35px"><span style="font-family:'Courier New', monospace">|<span></li>
       <li class="divider"></li>
 
-        <li id="mnu-about" class="mnu-option">
-          <a href="#" data-toggle="modal" data-target="#modal-in-progress"><i class="fa fa-users"></i>&nbsp;Meet Us</a>
+        <li id="mnu-about" class="mnu-option-dropdown">
+          <a href="about"><i class="fa fa-users"></i>&nbsp;Meet Us</a>
+          <div class="mnu-option-dropdown-content">
+            <a href="about">Organization</a>
+            <a href="leaders">Team</a>
+            <a href="#">Graduates</a>
+          </div>
         </li>
+
         <li class="menu-break" style="font-size:35px"><span style="font-family:'Courier New', monospace">|<span></li>
       <li class="nav-divider"></li>
         <li id="mnu-connect" class="mnu-option">
@@ -48,6 +54,8 @@
         <li><a href="https://www.facebook.com/impactbison" style="padding: 0px 5px 0px 5px; color: #3b5999"><i class="fa fa-facebook-square fa-2x"></i></a></li>
         <!-- Our Facebook group is @ https://www.facebook.com/groups/186878238011489/ -->
         <li><a href="https://twitter.com/impactbison" style="padding: 0px 5px 0px 5px; color: #4099FF"><i class="fa fa-twitter-square fa-2x"></i></a></li>
+        <!--Need custom URL @ https://www.youtube.com/impactbison-->
+        <li><a href="https://www.youtube.com/channel/UCzh0AUtdYAkc_WT7IXO3cEA" target="_blank" style="padding: 0px 5px 0px 5px; color: #cc181e"><i id="youtube-icon" class="fa fa-youtube-square fa-2x"></i></a></li>
         <li><a href="mailto:impactbison@gmail.com?Subject=Send%20Me%20Updates" style="padding: 0px 5px 0px 5px; color: #000099"><i class="fa fa-envelope-square fa-2x"></i></a></li>
       </ul>
     </div><!-- /.navbar-collapse -->

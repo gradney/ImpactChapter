@@ -12,13 +12,17 @@
     <li><a data-toggle="pill" href="#na-churches">Non-DMV</a></li>
   </ul>
   
+  <?php /*TODO: Add Impact's doctrines link (i.e. faith statement) and Organize, state churches by denominations*/ ?>
+
   <div class="tab-content">
     <div id="dc-churches" class="tab-pane fade in active">
       <ul class="church-list"><!--TODO: When item clicked, a pop-up appears beneath item with church info, pastor, and link to website.-->
-        <li><a href="http://chapel.howard.edu/Home" target="_blank">Andrew Rankin Memorial Chapel</a></li>
+        <li><a href="http://chapel.howard.edu/Home" target="_blank">Andrew Rankin Memorial Chapel</a> | service starts at...</li>
+        <!-- check out the Speaker Schedule at http://chapel.howard.edu/Worship/ChapelServices/SpeakerSchedule -->
         <li><a href="http://www.gracecovdc.org/" target="_blank">Grace Covenant Church of DC</a></li>
         <li><a href="http://gracemosaic.org/" target="_blank">Grace Mosaic of Grace DC</a></li>
-        <!--li><a href="http://thenorthwestchurch.com/" target="_blank">Northwest Community Church</a></li-->
+        <li><a href="http://www.viewfromthemount.org/" target="_blank">Mount Pleasant Baptist Church</a></li>
+        <li><a href="http://thenorthwestchurch.com/" target="_blank">Northwest Community Church</a></li>
       </ul>
     </div>
     <div id="md-churches" class="tab-pane fade">
