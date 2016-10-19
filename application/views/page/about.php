@@ -4,7 +4,7 @@
       <div class="col-xs-12">
         <h1 id="vision-headline">a biblical leadership development ministry</h1>
         <hr style="border-color: #c80000; height:10px"/>
-
+        <h3><a href="https://www.biblegateway.com/passage/?search=Proverbs%2029:18-19&version=VOICE" target="_blank">Where there is no vision from God, the people run wild, but those who adhere to God’s instruction know genuine happiness.</a><em> - Proverbs 29:18<em></h3>
         <h2 id="vision-statement">Our <em><span class="bold">vision </span></em><span style="font-size:0.8em;">is best explained through a collage based on our collective actions.</span></h2>
         <!--
         - unshakable prayer

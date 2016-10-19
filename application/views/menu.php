@@ -35,7 +35,7 @@
           <div class="mnu-option-dropdown-content">
             <a href="about">Organization</a>
             <a href="leaders">Team</a>
-            <a href="#">Graduates</a>
+            <a href="graduates">Graduates</a>
           </div>
         </li>
 
