@@ -49,7 +49,7 @@
       </div>
       <div class="col-md-4" style="margin-bottom: 20px;">
         <div class="card" style="text-align: center;">
-          <img class="card-img-top img-circle" src="img/pic/profiles/shannon_headshot.png" alt="Leah Hairston - smile">
+          <img class="card-img-top img-circle" src="img/pic/profiles/leah_headshot.png" alt="Leah Hairston - smile">
           <div class="card-block">
             <h4 class="card-title">Leah Hairston</h4>
             <p class="card-text">
@@ -70,7 +70,7 @@
   </div><?php/*end advisors-profiles*/?>
 
   <div id="graduates-headline" class="container">
-    <div class="row">
+    <div class="row top-buffer-20">
       <div class="col-xs-12">
         <h1 style="margin-top: 0px;text-align: center;">Graduates</h1>
         <p style="font-size: 1.25em;"><em>"Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek."</em> - President Barack Obama</p>
