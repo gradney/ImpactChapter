@@ -1,10 +1,12 @@
   <div id="advisors-headline" class="container">
     <div class="row">
       <div class="col-xs-12">
-        <h1 style="margin-top: 0px;text-align: center;">Advisors</h1>
-        <h3 style="text-align: center;">Graduated Leaders</h3>
-        <p style="font-size: 1.25em;"><em>"Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek."</em> - President Barack Obama</p>
+        <h1 class="text-center" style="margin-top: 0px;">Advisors</h1>
+        <h3 class="text-center">Graduated Leaders</h3>
+        <p style="font-size: 1.25em;"><em>"Revolution is a serious thing, the most serious thing about a revolutionary's life. When one commits oneself to the struggle, it must be for a lifetime."&nbsp;</em><a href="http://feministstudies.ucsc.edu/faculty/singleton.php?singleton=true&cruz_id=aydavis" target="_blank">- Angela Davis</a></p>
+        <!--p style="font-size: 1.25em;"><em>"You and these people who come to you will only wear yourselves out. The work is too heavy for you; you cannot handle it alone."</em> - Jethro, Moses' father-in-law <a href="https://www.biblegateway.com/passage/?search=Exodus%2018:18" target="_blank">(Exodus 18:18)</a></p-->
       </div>
+      <h2 class="text-center"><a href="advisor_responsiblities" class="btn btn-primary">Advisors' Responsibilities</a></h2>
     </div>
   </div>
 
@@ -71,9 +73,10 @@
 
   <div id="graduates-headline" class="container">
     <div class="row top-buffer-20">
-      <div class="col-xs-12">
-        <h1 style="margin-top: 0px;text-align: center;">Graduates</h1>
-        <p style="font-size: 1.25em;"><em>"Change will not come if we wait for some other person or some other time. We are the ones we've been waiting for. We are the change that we seek."</em> - President Barack Obama</p>
+      <div class="col-xs-12 text-center">
+        <h1 style="margin-top: 0px;">Graduates</h1>
+        <p style="font-size: 1.25em;"><em>"Education is the key to unlock the golden door of freedom."</em> <a href="http://www.history.com/topics/black-history/george-washington-carver" target="_blank">- George Washington Carver</a></p>
+        <p style="font-size: 1.25em;"><em>"Education is the passport to the future, for tomorrow belongs to those who prepare for it today."</em> <a href="http://malcolmxfoundation.org/organization/malcolm-x/" target="_blank">- Malcolm X</a></p>
       </div>
     </div>
   </div>
