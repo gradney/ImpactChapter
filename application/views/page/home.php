@@ -98,7 +98,7 @@
           <p>
             <a href="churches" class="btn btn-primary" role="button">Find a Church</a>
             &nbsp;
-            <a href="#" class="btn btn-default" role="button">Partner</a></p>
+            <a href="sorry" class="btn btn-default" role="button">Partner</a></p>
         </div>
       </div>
     </div>
@@ -113,7 +113,7 @@
           <!--http://theblackfamilyinitiative.org/single-parenting-and-childrens-academic-achievement-->
           <!--http://www.nytimes.com/2002/07/29/us/side-effect-of-welfare-law-the-no-parent-family.html?_r=0-->
           <p><a href="http://www.nydailynews.com/opinion/juan-williams-face-racism-black-families-matter-article-1.2285951" target="_blank">NY Daily News</a> has cited in July 2015, "As of 2013, 55% [of AA kids] grew up without two parents." <a href="http://steinhardt.nyu.edu/faculty/Kathleen_Ziol-Guest">Ziol-Guest</a> has stated, "<a href="https://www.insidehighered.com/news/2015/02/25/report-marks-growing-educational-disadvantage-children-single-parent-families">the negative relationship</a> between living with a single parent and educational attainment has grown with each generation." Please pray for family restoration of our students.</p>
-          <p><a href="#" class="btn btn-primary" role="button">Be a Sponsor</a>&nbsp;<a href="#" class="btn btn-default" role="button">Learn More</a></p>
+          <p><a href="sorry" class="btn btn-primary" role="button">Be a Sponsor</a>&nbsp;<a href="sorry" class="btn btn-default" role="button">Learn More</a></p>
         </div>
       </div>
     </div>
@@ -123,7 +123,7 @@
         <div class="caption">
           <h3>Network</h3>
           <p>Our professionals help students understand that college is the launchpad for their careers. We know "it's not just what you know, but who you know", but without proper mentorship a student will struggle in his/her career especially with the increase in global competition.</p>
-          <p><a href="#" class="btn btn-primary" role="button">Find a Mentor</a>&nbsp;<a href="#" class="btn btn-default" role="button">Network List</a></p>
+          <p><a href="sorry" class="btn btn-primary" role="button">Find a Mentor</a>&nbsp;<a href="sorry" class="btn btn-default" role="button">Network List</a></p>
         </div>
       </div>
     </div>
@@ -133,7 +133,7 @@
         <div class="caption" style="padding-top:5px">
           <h3>Community</h3>
           <p><a href="http://friendship.about.com/od/Types_of_Friendships/fl/Why-Friendship-Is-Important.htm" target="_blank">Friends</a> play a major role if not the biggest role in many of our students' lives. They are the ones who have the greatest influence when a person begins life on his/her own. But, making friends can be challenging. We help students find the right friends and the best friend <a href="https://www.biblegateway.com/passage/?search=John+15%3A13&version=NIV" target="_blank">Jesus</a> for their life.</p>
-          <p><a href="#" class="btn btn-primary" role="button">Connect</a>&nbsp;<a href="#" class="btn btn-default" role="button">Learn More</a></p>
+          <p><a href="sorry" class="btn btn-primary" role="button">Connect</a>&nbsp;<a href="sorry" class="btn btn-default" role="button">Learn More</a></p>
         </div>
       </div>
     </div>
@@ -146,7 +146,7 @@
     <div class="textbox" style="width:100%;position:absolute;z-index:1;top:40%;left:0%;border:0px solid green">
       <h1 style="background-color:transparent;color:#f5f5f5;border:0px solid black;font-weight:bold">We Love the Truth</h1>
       <h3 style="background-color:#f5f5f5;color:black;border:0px solid black;padding:5px"><a href="https://www.biblegateway.com/passage/?search=Matthew+6%3A33&version=NIV" target="_blank"><span style="font-style:italic;">"But seek first his kingdom and his righteousness, and all these things will be given to you as well."</span><br/> - Matthew 6:33</a><br/><span style="font-size:20px">Through our Bible studies, we focus on growing our personal relationship with God. In addition, we continue digging deeper by exploring practical applications in our lessons and opportunities of leadership development.</span></h3>
-      <a id="btn-lets-grow" class="btn btn-default btn-lg" href="#" role="button" style="margin-bottom:20px;"><p style="font-weight:bold;font-size:22px;font-style:italic;margin:0px">Let's Grow!</p></a>
+      <a id="btn-lets-grow" class="btn btn-default btn-lg" href="studies" role="button" style="margin-bottom:20px;"><p style="font-weight:bold;font-size:22px;font-style:italic;margin:0px">Let's Grow!</p></a>
     </div>
   </img>
 </div>

@@ -126,7 +126,7 @@
     <div class="row">
       <div class="col-xs-12" style="text-align: center;">
         <h1 style="margin-top: 0px;">Ministry Coaches</h1>
-        <p style="font-size: 1.25em;"><em><a href="https://youtu.be/p8p8FlIm5-I" target="_blank">No coach has ever won a game by what he knows; it's what his players know that counts."</a></em> <a href="https://en.wikipedia.org/wiki/Bear_Bryant" target="_blank">- Paul "Bear" Bryant</a></p>
+        <p style="font-size: 1.25em;"><em><a href="https://youtu.be/p8p8FlIm5-I" target="_blank">"No coach has ever won a game by what he knows; it's what his players know that counts."</a></em> <a href="https://en.wikipedia.org/wiki/Bear_Bryant" target="_blank">- Paul "Bear" Bryant</a></p>
       </div>
     </div>
   </div>

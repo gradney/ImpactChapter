@@ -6,7 +6,7 @@
         <p style="font-size: 1.25em;"><em>"Revolution is a serious thing, the most serious thing about a revolutionary's life. When one commits oneself to the struggle, it must be for a lifetime."&nbsp;</em><a href="http://feministstudies.ucsc.edu/faculty/singleton.php?singleton=true&cruz_id=aydavis" target="_blank">- Angela Davis</a></p>
         <!--p style="font-size: 1.25em;"><em>"You and these people who come to you will only wear yourselves out. The work is too heavy for you; you cannot handle it alone."</em> - Jethro, Moses' father-in-law <a href="https://www.biblegateway.com/passage/?search=Exodus%2018:18" target="_blank">(Exodus 18:18)</a></p-->
       </div>
-      <h2 class="text-center"><a href="advisor_responsiblities" class="btn btn-primary">Advisors' Responsibilities</a></h2>
+      <h2 class="text-center"><a href="advisor-responsiblities" class="btn btn-primary">Advisors' Responsibilities</a></h2>
     </div>
   </div>
 

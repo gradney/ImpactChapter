@@ -20,7 +20,8 @@
   <!--/*Page Content*/-->
   <div class="container-fluid">
     <h1>Where we Study?</h1>
-    <p>Find us on <span style="font-weight:bold">Mondays</span> in the <span style="font-weight:bold">School of Business room 320</span> growing personally in our Bible studies at <span style="font-weight:bold">6pm</span> and developing professionally in our leadership development trainings at <span style="font-weight:bold">7pm</span>.
+    <h3><strong>Mondays 6pm<br/>School of Business room 320</strong></h3>
+    <p>Come join us as we grow personally in our Bible studies (6pm) and develop professionally in our leadership trainings (7pm).
     </p>
   </div>
 

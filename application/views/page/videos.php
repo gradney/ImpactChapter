@@ -23,30 +23,32 @@
  *****************************************************************************/
 ?>
 <div class="container">
+  
   <div class="row">
       <ul id="video-categories" class="nav nav-tabs nav-justified">
         <li class="col-md-3 active">
-          <div class="text-size-40 text-nowrap">
+          <h3 class="text-nowrap">
             <a class="nounderline" data-toggle="tab" href="#video-panel-promo"><i class="fa fa-video-camera"></i>&nbsp;Promos</a>
-          </div>
+          </h3>
         </li>
         <li class="col-md-3">
-          <div class="text-size-40 text-nowrap">
+          <h3 class="text-nowrap">
             <a class="nounderline" data-toggle="tab" href="#video-panel-gospel"><i class="fa fa-book"></i>&nbsp;Good Word!</a>
-          </div>
+          </h3>
         </li>
         <li class="col-md-3">
-          <div class="text-size-40 text-nowrap">
+          <h3 class="text-nowrap">
             <a class="nounderline" data-toggle="tab" href="#video-panel-grow"><i class="fa fa-leaf"></i>&nbsp;Let's Grow</a>
-          </div>
+          </h3>
         </li>
         <li class="col-md-3">
-          <div class="text-size-40 text-nowrap">
+          <h3 class="text-nowrap">
             <a class="nounderline" data-toggle="tab" href="#video-panel-motive"><i class="fa fa-compass"></i>&nbsp;Encouragement</a>
-          </div>
+          </h3>
         </li>
       </ul>
   </div><?php/*end:row*/?>
+
   <div class="row">
     <div class="col-md-12">
       <div class="tab-content">
@@ -66,7 +68,8 @@
                   <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BFjxAhcj1GA" allowfullscreen></iframe>Your browser does not support the iframe tag. Please upgrade your browser.</iframe>
                   </div>
-                  <h3 class="text-center">Impact '13 "Break Free"</h3>
+                  <h3 class="text-center">Impact '13</h3>
+                  <h3 class="text-center"><em>"Break Free"</em></h3>
                   <h3 class="text-center"><span class="label label-primary">National Conference</span></h3>
                 </div>
               </div>
@@ -76,7 +79,8 @@
                   <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lJOSHojiv3k" allowfullscreen>Your browser does not support the iframe tag. Please upgrade your browser.</iframe>
                   </div>
-                  <h3 class="text-center">Impact '12 "M.I.A."</h3>
+                  <h3 class="text-center">Impact '12</h3>
+                  <h3 class="text-center"><em>"M.I.A."</em></h3>
                   <h3 class="text-center"><span class="label label-primary">National Conference</span></h3>
                 </div>
               </div>
@@ -86,7 +90,8 @@
                   <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oMai1dUbUcM" allowfullscreen>Your browser does not support the iframe tag. Please upgrade your browser.</iframe>
                   </div>
-                  <h3 class="text-center">Impact '11 "The Remedy"</h3>
+                  <h3 class="text-center">Impact '11</h3>
+                  <h3 class="text-center"><em>"The Remedy"</em></h3>
                   <h3 class="text-center"><span class="label label-primary">National Conference</span></h3>
                 </div>
               </div>
@@ -98,7 +103,8 @@
                   <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6YJCDsjPyJ0" allowfullscreen></iframe>Your browser does not support the iframe tag. Please upgrade your browser.</iframe>
                   </div>
-                  <h3 class="text-center text-nowrap">Impact '10 "The Come Back"</h3>
+                  <h3 class="text-center text-nowrap">Impact '10</h3>
+                  <h3 class="text-center text-nowrap"><em>"The Come Back"</em></h3>
                   <h3 class="text-center"><span class="label label-primary">National Conference</span></h3>
                 </div>
               </div>
@@ -109,7 +115,8 @@
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6O5hLie9ZW4" allowfullscreen>Your browser does not support the iframe tag. Please upgrade your browser.</iframe>
                     <!--iframe id="alternate-video" class="embed-responsive-item" src="https://www.youtube.com/embed/6nRWiyD41BU" allowfullscreen>Your browser does not support the iframe tag. Please upgrade your browser.</iframe-->
                   </div>
-                  <h3 class="text-center text-nowrap">Impact '08 "Mission:Possible"</h3>
+                  <h3 class="text-center text-nowrap">Impact '08</h3>
+                  <h3 class="text-center text-nowrap"><em>"Mission:Possible"</em></h3>
                   <h3 class="text-center"><span class="label label-primary">National Conference</span></h3>
                 </div>
               </div>
@@ -119,7 +126,8 @@
                   <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qdDr6PoK8Qc" allowfullscreen>Your browser does not support the iframe tag. Please upgrade your browser.</iframe>
                   </div>
-                  <h3 class="text-center">Impact '06 "Arise"</h3>
+                  <h3 class="text-center">Impact '06</h3>
+                  <h3 class="text-center"><em>"Arise"</em></h3>
                   <h3 class="text-center"><span class="label label-primary">National Conference</span></h3>
                 </div>
               </div>

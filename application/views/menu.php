@@ -1,10 +1,10 @@
-
-<div class="alert alert-danger alert-dismissible" role="alert" style="margin:10px 20px 0px 20px;text-align:center;">
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  <?php /*TODO: Add anchors to the Bible Studies page pointing to the Biblical studies, Leadership studies, or page top.*/?>
-  <strong>Ready to Grow!</strong> Join us at <a href="studies" class="alert-link">Bible Study,</a> <a href="studies" class="alert-link">Leadership Development (training),</a> or both. <a href="studies" class="alert-link">Click here for info...</a>
-</div>
-
+<script>
+  var breaking_news = '<div id="breaking-news" class="alert alert-danger alert-dismissible" role="alert" style="margin:10px 20px 0px 20px;text-align:center;"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button><strong>Ready to Grow!</strong> Join us at <a href="studies" class="alert-link">Bible Study,</a> <a href="studies" class="alert-link">Leadership Development (training),</a> or both. <a href="studies" class="alert-link">Click here for info...</a></div>';
+  var path = window.location.pathname;
+  var page = path.split("/").pop();
+  if (page == 'home' || page == 'index' || page == '')
+    document.write(breaking_news);
+</script>
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
@@ -30,7 +30,7 @@
         <li class="menu-break" style="font-size:35px"><span style="font-family:'Courier New', monospace">|<span></li>
       <li class="divider"></li>
 
-        <li id="mnu-about" class="mnu-option-dropdown">
+        <li id="menu-identify" class="mnu-option-dropdown">
           <a href="about"><i class="fa fa-users"></i>&nbsp;Meet Us</a>
           <div class="mnu-option-dropdown-content">
             <a href="about">Organization</a>
@@ -41,13 +41,25 @@
 
         <li class="menu-break" style="font-size:35px"><span style="font-family:'Courier New', monospace">|<span></li>
       <li class="nav-divider"></li>
-        <li id="mnu-connect" class="mnu-option">
-          <a href="#" data-toggle="modal" data-target="#modal-in-progress"><i class="fa fa-trophy"></i>&nbsp;Team Up</a>
+        <li id="menu-connect" class="mnu-option">
+          <a href="be-a-leader"><i class="fa fa-trophy"></i>&nbsp;Team Up</a>
         </li>
         <li class="menu-break" style="font-size:35px"><span style="font-family:'Courier New', monospace">|<span></li>
-        <li id="mnu-services" class="mnu-option dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#"><i class="fa fa-heartbeat"></i>&nbsp;Thrive</a>
+
+        <?php /* TODO: Create following pages and update links.
+              Thrive -> page: grow
+              Reading Plan -> page: bible-reading-plan
+        */ ?>
+        <li id="menu-grow" class="mnu-option-dropdown">
+          <a href="sorry"><i class="fa fa-heartbeat"></i>&nbsp;Thrive</a>
+          <div class="mnu-option-dropdown-content">
+            <a href="http://impactmovement.org/national-conference/" target="_blank">Conference '16</a>
+            <a href="sorry">Reading Plan</a> <?php /*leaving as a reminder to update*/ ?>
+            <?php /*<a href="bible-practices">Green Resources</a>*/ ?>
+            <a href="videos">Videos</a>
+          </div>
         </li>
+        
       </ul>
       <ul class="nav navbar-nav navbar-right" style="margin-top:20px;">
         <li style="padding:0px 5px; font-size:1.25em; color:gray; font-family:Arial, Helvetica, sans-serif; font-style:italic;">Follow us&nbsp;<i class="fa fa-hand-o-right fa-lg"></i></li>
