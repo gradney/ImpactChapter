@@ -47,7 +47,8 @@
           </h3>
         </li>
       </ul>
-  </div><?php/*end:row*/?>
+  </div>
+  <?php /*end:row*/ ?>
 
   <div class="row">
     <div class="col-md-12">
@@ -64,7 +65,6 @@
             <div class="row">
               <div class="col-md-4">
                 <div id="impactconference13" class="well">
-                  <!-- 4:3 aspect ratio -->
                   <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/BFjxAhcj1GA" allowfullscreen></iframe>Your browser does not support the iframe tag. Please upgrade your browser.</iframe>
                   </div>
@@ -75,7 +75,6 @@
               </div>
               <div class="col-md-4">
                 <div id="impactconference12" class="well">
-                  <!-- 4:3 aspect ratio -->
                   <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/lJOSHojiv3k" allowfullscreen>Your browser does not support the iframe tag. Please upgrade your browser.</iframe>
                   </div>
@@ -86,7 +85,6 @@
               </div>
               <div class="col-md-4">
                 <div id="impactconference11" class="well">
-                  <!-- 4:3 aspect ratio -->
                   <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/oMai1dUbUcM" allowfullscreen>Your browser does not support the iframe tag. Please upgrade your browser.</iframe>
                   </div>
@@ -95,11 +93,11 @@
                   <h3 class="text-center"><span class="label label-primary">National Conference</span></h3>
                 </div>
               </div>
-            </div><?php /*<!--end:row-->*/ ?>
+            </div>
+            <?php /*<!--end:row-->*/ ?>
             <div class="row">
               <div class="col-md-4">
                 <div id="impactconference10" class="well">
-                  <!-- 4:3 aspect ratio -->
                   <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6YJCDsjPyJ0" allowfullscreen></iframe>Your browser does not support the iframe tag. Please upgrade your browser.</iframe>
                   </div>
@@ -110,7 +108,6 @@
               </div>
               <div class="col-md-4">
                 <div id="impactconference08" class="well">
-                  <!-- 4:3 aspect ratio -->
                   <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/6O5hLie9ZW4" allowfullscreen>Your browser does not support the iframe tag. Please upgrade your browser.</iframe>
                     <!--iframe id="alternate-video" class="embed-responsive-item" src="https://www.youtube.com/embed/6nRWiyD41BU" allowfullscreen>Your browser does not support the iframe tag. Please upgrade your browser.</iframe-->
@@ -122,7 +119,6 @@
               </div>
               <div class="col-md-4">
                 <div id="impactconference06" class="well">
-                  <!-- 4:3 aspect ratio -->
                   <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qdDr6PoK8Qc" allowfullscreen>Your browser does not support the iframe tag. Please upgrade your browser.</iframe>
                   </div>
@@ -131,11 +127,11 @@
                   <h3 class="text-center"><span class="label label-primary">National Conference</span></h3>
                 </div>
               </div>
-            </div><?php /*<!--end:row-->*/ ?>
+            </div>
+            <?php /*<!--end:row-->*/ ?>
             <div class="row">
               <div class="col-md-6 col-md-offset-3">
                 <div id="impactconference10years" class="well">
-                  <!-- 4:3 aspect ratio -->
                   <div class="embed-responsive embed-responsive-4by3">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ftOy1XibViE" allowfullscreen>Your browser does not support the iframe tag. Please upgrade your browser.</iframe>
                   </div>
@@ -143,10 +139,12 @@
                   <h3 class="text-center"><span class="label label-primary">National Conference</span></h3>
                 </div>
               </div>
-            </div><?php /*<!--end:row-->*/ ?>
-          </div><?php /*<!--end:video-gallery-->*/ ?>
-
-        </div><!--end:video-panel-promo-->
+            </div>
+            <?php /*<!--end:row-->*/ ?>
+          </div>
+          <?php /*<!--end:video-gallery-->*/ ?>
+        </div>
+        <?php /*<!--end:video-panel-promo-->>*/ ?>
 
         <div id="video-panel-gospel" class="tab-pane fade">
           <h3 class="video-gallery-heading">Wuuuurrrrdddddd!!!</h3>
@@ -163,8 +161,10 @@
                 <h3 class="text-center"><span class="label label-primary">Spoken Word</span></h3>
               </div>
             </div>
-          </div><?php /*<!--end:row-->*/ ?>
-        </div><!--end:video-panel-gospel-->
+          </div>
+          <?php /*<!--end:row-->*/ ?>
+        </div>
+        <?php /*<!--end:video-panel-gospel-->*/ ?>
 
         <div id="video-panel-grow" class="tab-pane fade">
           <h3>Getting Greener</h3>
@@ -175,11 +175,12 @@
           <h3>Be Encouraged, Fam</h3>
           <p>Currently, we are creating a collection of videos for this section. Thanks for being patient with us.</p>
         </div>
-      </div><?php/*end:tab-content*/?>
+      </div>
+      <?php /*end:tab-content*/ ?>
 
-    </div><?php/*end:col*/?>
-  </div><?php/*end:row*/?>
-</div><?php/*end:container*/?>
-
-<?php/** PAGE BOTTOM *******************************************************/?>
-
+    </div>
+    <?php /*end:col*/ ?>
+  </div>
+  <?php /*end:row*/ ?>
+</div>
+<?php /*end:container*/ ?>

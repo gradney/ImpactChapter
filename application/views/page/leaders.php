@@ -63,7 +63,8 @@
             </div>
           </div>
       </div>
-    </div><?php/*end row*/?>
+    </div>
+    <?php /*end row*/ ?>
 
     <div class="row top-buffer-20" style="padding-left: 100px; padding-right: 100px;">
       <div class="col-md-4" style="margin-bottom: 20px;">
@@ -117,9 +118,11 @@
             </div>
           </div>
       </div>
-    </div><?php/*end row*/?>
+    </div>
+    <?php /*end row*/ ?>
 
-  </div><?php/*end leaders-profiles*/?>
+  </div>
+  <?php /*end leaders-profiles*/ ?>
 
   <?php /*<!--hr style="border-color: black; height:10px"-->*/ ?>
   <div id="coaches-headline" class="container-fluid" style="padding-top:40px; color: #b30000;">
@@ -168,6 +171,8 @@
           </div>
       </div>
       <div class="col-md-3"></div>
-    </div><?php/*end row*/?>
+    </div>
+    <?php /*end row*/ ?>
 
-  </div><?php/*end coaches-profiles*/?>
+  </div>
+  <?php /*end coaches-profiles*/ ?>

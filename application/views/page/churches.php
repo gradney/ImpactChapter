@@ -27,11 +27,14 @@
     </div>
     <div id="md-churches" class="tab-pane fade">
       <p class="church-area-info">Maryland wraps around the north and east side of Washington, D.C.</p> 
-      <p>Although Howard University is near but not in Maryland, we are so appreciative of the extra effort from our  partnering churches in Maryland.</p>
+      <p>Although Howard University is near but not in Maryland, we are so appreciative of the extra effort from our  partnering churches in Maryland. Many Howard alumni are also looking for a church home nearby in Maryland aligned with Impact's values. So your partnership means a lot!</p>
     </div>
     <div id="va-churches" class="tab-pane fade">
       <p class="church-area-info">Virginia wraps around the west and south side of Washington, D.C.</p> 
-      <p>Although Howard University is near but not in Virginia, we are so appreciative of the extra effort from our partnering churches in Virginia.</p>
+      <p>Although Howard University is near but not in Virginia, we are so appreciative of the extra effort from our partnering churches in Virginia. Many Howard alumni are also looking for a church home nearby in Virginia aligned with Impact's values. So your partnership means a lot!</p>
+      <ul class="church-list">
+        <li><a href="http://www.lightoflifetoday.org/" target="_blank">Light of Life Church</a></li>
+      </ul>
     </div>
     <div id="na-churches" class="tab-pane fade">
       <h3>or rather outside the DMV (i.e. 

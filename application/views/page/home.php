@@ -73,7 +73,7 @@
 </div>
 
 <div id="img-AsaTeaches">
-  <img src="<?php echo base_url().'img/impact-day/20160326_AsaTeaches.jpg';?>" style="margin: auto; border-radius:50px">
+  <img src="<?php echo base_url().'img/impact-day/20160326_AsaTeaches.jpg';?>" class="img-responsive" style="margin: auto; border-radius:50px">
     <!--h2 id="title1"><span>Pray &amp; practice four basic principles with respect to your God-given purpose: </span></h2-->
   </img>
 </div>

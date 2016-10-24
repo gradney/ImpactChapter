@@ -69,7 +69,8 @@
       </div>
     </div>
 
-  </div><?php/*end advisors-profiles*/?>
+  </div>
+  <?php /*end advisors-profiles*/ ?>
 
   <div id="graduates-headline" class="container">
     <div class="row top-buffer-20">
@@ -148,6 +149,8 @@
             </div>
           </div>
       </div>
-    </div><?php/*end row*/?>
+    </div>
+    <?php /*end row*/ ?>
 
-  </div><?php/*end graduates-profiles*/?>
+  </div>
+  <?php /*end graduates-profiles*/ ?>
