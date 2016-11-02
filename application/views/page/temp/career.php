@@ -15,3 +15,9 @@
 	</dl>
 	<p>Note, Google did mention that your school doesn't matter as much as your grit and determination to succeed. Your GPA is a great prediction of how well you'll do within your first few years on the job, but not afterwards. This is where your character comes strongly into play. Read more @ <a href="http://money.cnn.com/2015/04/09/technology/google-people-laszlo-bock/index.html" target="_blank">http://money.cnn.com/2015/04/09/technology/google-people-laszlo-bock/index.html</a></p>
 	<p>You may have played around in school during your first year, but did you buckle down and hustle throughout the last years to lift up your career trajectory? That is what really matters! Focus on contributing to the well-being of the world and you'll do just fine. :)</p>
+
+Nonprofit Careers of Interest?
+http://www.metroworldchild.org/
+
+Entrepreunership
+http://bransoncentre.co/caribbean/

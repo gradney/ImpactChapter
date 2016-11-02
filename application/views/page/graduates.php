@@ -40,9 +40,10 @@
               <ul style="list-style: none; padding-left: 0px;">
                 <li>Vice President</li>
                 <li>c/o 2016</li>
-                <li>English, Health Sciences</li>
+                <li>English, Pyschology</li>
                 <li>Massachusetts</li>
-                <li>MPH Candidate - Brown University</li>
+                <li>ScM Candidate - Brown University</li>
+                <?php /*<li>MS in Behavioral and Social Health Sciences</li>*/ ?>    
               </ul>
             </p>
             <?php /*<a href="#" class="btn btn-primary">Connect</a>*/ ?>

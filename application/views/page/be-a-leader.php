@@ -9,7 +9,7 @@
 
         <p style="font-size: 1em"> Within Impact, we prepare our students over the course of three years, maximum, by placing them in leadership roles. These roles give practical experience in leading an organization - our organization by developing our ministry as training grounds to address today's real-world issues using biblical methods. Skills attained and polished include, but are not limited to, strategic planning, facilitating discussions, organizing community service, establishing professional networks, experiencing mission trips, active listening, communicating with understanding, becoming health-conscious, increasing academic achievements and GPA, maximizing their gifts, and, most importantly, being a role model especially for their peers. We group life skills with academic importance, the Gospel, and progressive thinking using practical resources and opportunities to ensure our next leaders are ready for the world upon graduation.
         
-        <h2 class="text-center">We would <em>LOVE</em> to have you join our Leadership Team! If you are intersted in being a Leader, please contact one of our student leaders via email: <a href="mailto:impactbison@gmail.com">impactbison@gmail.com</a></h2>
+        <h2 class="text-center">We would <em>LOVE</em> to have you join our Leadership Team! If you are interested in being a Leader, please contact one of our student leaders via email: <a href="mailto:impactbison@gmail.com">impactbison@gmail.com</a></h2>
       </div>
     </div>
     <?php /*end row*/ ?>
