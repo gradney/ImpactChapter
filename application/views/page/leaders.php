@@ -19,7 +19,7 @@
               <h4 class="card-title">Grant Edwards</h4>
               <p class="card-text">
                 <ul style="list-style: none; padding-left: 0px;">
-                  <li>President &amp; COO</li>
+                  <li>Chief Operating Officer</li>
                   <li>c/o 2019</li>
                   <li>Supply Chain Mgmt</li>
                   <li>FL</li>
@@ -36,7 +36,7 @@
               <h4 class="card-title">Kyle McNaughton</h4>
               <p class="card-text">
                 <ul style="list-style: none; padding-left: 0px;">
-                  <li>Vice President</li>
+                  <li>Chief People Officer</li>
                   <li>c/o 2019</li>
                   <li>Finance</li>
                   <li>New Jersey</li>
@@ -55,7 +55,7 @@
                 <ul style="list-style: none; padding-left: 0px;">
                   <li>Chief Marketing Officer</li>
                   <li>c/o 2019</li>
-                  <li>Finance</li>
+                  <li>Supply Chain Mgmt</li>
                   <li>Arizona</li>
                 </ul>
               </p>
@@ -74,7 +74,7 @@
               <h4 class="card-title">Tracy Okoroh</h4>
               <p class="card-text">
                 <ul style="list-style: none; padding-left: 0px;">
-                  <li>Chief Communications Officer</li>
+                  <li>Chief Information Officer</li>
                   <li>c/o 2019</li>
                   <li>Info. Sys.</li>
                   <li>Maryland</li>
@@ -108,10 +108,31 @@
               <h4 class="card-title">Cierra Wells</h4>
               <p class="card-text">
                 <ul style="list-style: none; padding-left: 0px;">
-                  <li>Chief Foundations Officer</li>
+                  <li>Chief Culture Officer</li>
                   <li>c/o 2019</li>
                   <li>Finance</li>
                   <li>Maryland</li>
+                </ul>
+              </p>
+              <?php /*<a href="#" class="btn btn-primary">Connect</a>*/ ?>
+            </div>
+          </div>
+      </div>
+    </div>
+    <?php /*end row*/ ?>
+
+    <div class="row top-buffer-20" style="padding-left: 100px; padding-right: 100px;">
+      <div class="col-md-12" style="margin-bottom: 20px;">
+          <div class="card" style="text-align: center;">
+            <img class="card-img-top img-circle" src="img/pic/profiles/blank_headshot.png" alt="Lauryn Jones - smile">
+            <div class="card-block">
+              <h4 class="card-title">Lauryn Jones</h4>
+              <p class="card-text">
+                <ul style="list-style: none; padding-left: 0px;">
+                  <li>Chief Evangelist Officer</li>
+                  <li>c/o 2020</li>
+                  <li>Chemical Engineering</li>
+                  <li>Missouri</li>
                 </ul>
               </p>
               <?php /*<a href="#" class="btn btn-primary">Connect</a>*/ ?>
@@ -146,7 +167,7 @@
               <p class="card-text">
                 <ul style="list-style: none; padding-left: 0px;">
                   <li>Software Engineer</li>
-                  <li>Federal Government</li>
+                  <li>Booz Allen Hamilton</li>
                   <li>Germany (Army Kid)</li>
                 </ul>
               </p>
@@ -156,14 +177,14 @@
       </div>
       <div class="col-md-3" style="margin-bottom: 20px;">
           <div class="card" style="text-align: center;">
-            <img class="card-img-top img-circle" src="img/pic/profiles/jana_headshot.png" alt="Jana Thompson - smile">
+            <img class="card-img-top img-circle" src="img/pic/profiles/jacqui_headshot.png" alt="Jacqui Bland - smile">
             <div class="card-block">
-              <h4 class="card-title">Jana Thompson</h4>
+              <h4 class="card-title">Jacqueline Bland</h4>
               <p class="card-text">
                 <ul style="list-style: none; padding-left: 0px;">
-                  <li>Assistant Director</li>
-                  <li>Dallas Theological Seminary - DC</li>
-                  <li>Wisconsin</li>
+                  <li>Regional Director</li>
+                  <li>The Impact Movement</li>
+                  <li>Virginia</li>
                 </ul>
               </p>
               <a href="mailto:impactbison@gmail.com" class="btn btn-primary">Contact</a>
