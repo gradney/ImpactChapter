@@ -22,7 +22,7 @@
                   <li>Chief Operating Officer</li>
                   <li>c/o 2019</li>
                   <li>Supply Chain Mgmt</li>
-                  <li>FL</li>
+                  <li>Florida</li>
                 </ul>
               </p>
               <?php /*<a href="#" class="btn btn-primary">Connect</a>*/ ?>
@@ -110,7 +110,7 @@
                 <ul style="list-style: none; padding-left: 0px;">
                   <li>Chief Culture Officer</li>
                   <li>c/o 2019</li>
-                  <li>Finance</li>
+                  <li>International Business</li>
                   <li>Maryland</li>
                 </ul>
               </p>
